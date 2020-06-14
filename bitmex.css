@@ -1,0 +1,3734 @@
+._1MD-qal6 {
+  border-bottom: 1px solid var(--gray-700);
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
+  margin: 0 -5px;
+  padding: var(--sidebarTopBottomPadding) var(--sidebarLeftRightPadding); }
+  ._1MD-qal6 .positionLeverageForm {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-flex: 1;
+            flex-grow: 1;
+    -webkit-box-pack: center;
+            justify-content: center; }
+  ._1MD-qal6 .leverageWrapper {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-flex: 1;
+            flex-grow: 1;
+    font-size: 1rem;
+    margin-top: 5px; }
+    ._1MD-qal6 .leverageWrapper .leverage {
+      -webkit-box-flex: 1;
+              flex-grow: 1; }
+    ._1MD-qal6 .leverageWrapper .editLeverage {
+      margin-left: 8px;
+      margin-top: -2px; }
+    ._1MD-qal6 .leverageWrapper .rc-slider-mark-text {
+      font-size: 0.77rem; }
+      ._1MD-qal6 .leverageWrapper .rc-slider-mark-text:first-child {
+        margin-left: 0 !important;
+        left: -15px !important;
+        overflow: visible;
+        text-align: left;
+        white-space: nowrap; }
+      ._1MD-qal6 .leverageWrapper .rc-slider-mark-text:nth-of-type(2) {
+        -webkit-transform: translateX(1px);
+                transform: translateX(1px); }
+      ._1MD-qal6 .leverageWrapper .rc-slider-mark-text:nth-last-of-type(2) {
+        -webkit-transform: translateX(0);
+                transform: translateX(0); }
+      ._1MD-qal6 .leverageWrapper .rc-slider-mark-text:last-of-type {
+        right: -12px; }
+    ._1MD-qal6 .leverageWrapper .rc-slider-mark-text-active {
+      color: white; }
+  ._1MD-qal6 .tooltipWrapper:hover {
+    background-color: var(--gray-800); }
+
+._1SBSHmbU {
+  font-size: 1.25rem;
+  font-weight: 500;
+  padding: var(--sidebarHeaderTopBottomPadding) var(--sidebarHeaderLeftRightPadding);
+  margin: 0 -8px; }
+
+._1wLfO6Ux {
+  font-size: 1.38rem;
+  position: absolute;
+  right: var(--sidebarLeftRightPadding); }
+
+._2yHREGAu {
+  margin-bottom: 0;
+  padding-bottom: 4px; }
+
+._1YLiKDlW {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+          flex-direction: row; }
+
+._2ODWXCMh ._2sq0TXhv:before {
+  content: '+';
+  padding-right: 3px; }
+
+._3Nx02lp5 {
+  color: white;
+  font-size: 1rem;
+  font-weight: 400;
+  margin-top: 6px; }
+
+._3-uuKu61 {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 6px; }
+
+._3YFy4KeA {
+  color: var(--gray-500); }
+
+._3zzkqksc {
+  cursor: pointer; }
+
+._24kezr90 ._3Nx02lp5 {
+  text-align: right; }
+
+._3YFy4KeA ._2sq0TXhv:before {
+  content: '+';
+  padding-right: 3px; }
+
+._1Stn-hN0 {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+          flex-direction: row;
+  font-size: 1.38rem;
+  font-weight: 600;
+  overflow: hidden;
+  text-overflow: ellipsis; }
+
+._3vXWnkiN {
+  color: var(--gray-300);
+  font-size: 1rem;
+  margin-top: 3px; }
+
+._16kPngp3 {
+  margin-top: 10px; }
+
+._1ZQA1KNJ {
+  color: white;
+  display: -webkit-box;
+  display: flex;
+  font-size: 0.9rem;
+  font-weight: 400;
+  overflow: hidden;
+  text-overflow: ellipsis; }
+
+._1qo1jATD {
+  color: var(--price-neg); }
+
+._2ODWXCMh {
+  color: var(--price-pos); }
+
+._2MJkexvH {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: justify;
+          justify-content: space-between;
+  padding-bottom: 8px;
+  padding-top: 10px; }
+
+._2J6xSVrU::before {
+  content: "\F044";
+  cursor: pointer;
+  font-family: "icomoon";
+  padding-left: 2px; }
+
+.tkg3-8r8 {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+          flex-direction: row;
+  margin: 5px 5px 10px 0; }
+
+._2bVTCdq4 {
+  margin-right: 10px; }
+
+._2bVTCdq4::before {
+  content: "\E909";
+  font-family: "icomoon"; }
+
+._23FGopK0 {
+  margin-left: 2px; }
+
+._23FGopK0::before {
+  content: "\E90A";
+  font-family: "icomoon"; }
+
+/* See http://mrdanadams.com/2012/pixel-ems-css-conversion-sass-mixin/ */
+/* Convert PX units to EMs.
+Ex: margin-right: prem(16);
+*/
+/* Rounds EMs to the nearest .1 to be nicer. Useful for when browsers choke
+   on bizarre em values
+ */
+/* Used to convert PX to EMs for multiple properties or values or both.
+$base is an optional measurement that allows making measurements relative to the parent font size rather than the current. Also accepts a list of lists (instead a list of values) for properties that accept multiple lists of values. Only numbers of converted; everything else is passed through.
+
+Examples:
+
+@include scale(line-height, 30)
+@include scale(line-height, 30, 16)
+@include scale(width height, 125);
+@include scale(padding, 0 25, 16);
+@include scale(text-shadow, (#0d6e28 1 1) (#777 0 0 2), 16);
+@include scale(box-shadow, (inset 0 0 0 1 #2a9022) (inset 0 0 3 #459966), 16);
+*/
+/*
+ * NOTE: Don't specify CSS Custom Properties (Variables) here as they will be
+ * duplicated on import of this file. Please use variables-custom-properties.scss for new variables
+ */
+/**
+ * Official BitMEX Color Palette
+ * @see https://docs.google.com/document/d/14kCw1-SS705qNBGvbwh23RedY1lAPoO7VVFmrcOAdP8/edit
+*/
+
+/**
+* Use em or rem font-size in Bootstrap 3
+* Based on Less version here: https://gist.github.com/jasny/9731895
+* Values pulled from _variables.scss
+*/
+/**
+ * Official BitMEX Color Palette
+ * @see https://docs.google.com/document/d/14kCw1-SS705qNBGvbwh23RedY1lAPoO7VVFmrcOAdP8/edit
+*/
+
+:root ._3mU6DBvT {
+  --lime:                  #8CBF26;
+  --red:                   #e8704f;
+  --redDark:               #d56161;
+  --blue:                  #c0d2df;
+  --green:                 #52b370;
+  --orange:                #a48c42;
+  --yellow:                #eac85e;
+  --pink:                  #E671B8;
+  --purple:                #A700AE;
+  --brown:                 #A05000;
+  --teal:                  #4ab0ce;
+  --gray:                  #333;
+  --gray-dark:             #888;
+  --gray-darker:           #bbb;
+  --gray-light:            #999;
+  --backgroundGray:        #333;
+  --lightGray:             #E6E9ED;
+  --shadowGray:            rgba(#676767, .6);
+  --white:                 #000;
+  --black:                 #fff; }
+
+/* See http://mrdanadams.com/2012/pixel-ems-css-conversion-sass-mixin/ */
+/* Convert PX units to EMs.
+Ex: margin-right: prem(16);
+*/
+/* Rounds EMs to the nearest .1 to be nicer. Useful for when browsers choke
+   on bizarre em values
+ */
+/* Used to convert PX to EMs for multiple properties or values or both.
+$base is an optional measurement that allows making measurements relative to the parent font size rather than the current. Also accepts a list of lists (instead a list of values) for properties that accept multiple lists of values. Only numbers of converted; everything else is passed through.
+
+Examples:
+
+@include scale(line-height, 30)
+@include scale(line-height, 30, 16)
+@include scale(width height, 125);
+@include scale(padding, 0 25, 16);
+@include scale(text-shadow, (#0d6e28 1 1) (#777 0 0 2), 16);
+@include scale(box-shadow, (inset 0 0 0 1 #2a9022) (inset 0 0 3 #459966), 16);
+*/
+.gmqxVo97 {
+  -webkit-box-align: center;
+          align-items: center;
+  background: var(--headerBackground);
+  border: 0;
+  box-shadow: 0px 0px 2px 0px black;
+  color: var(--headerTextColor);
+  display: -webkit-box;
+  display: flex;
+  padding: 8px var(--section-separation)/2;
+  position: relative;
+  z-index: 4; }
+  .gmqxVo97 > ._2wx45MYS,
+  .gmqxVo97 ._2UCMYPbC > ._2wx45MYS {
+    background: -webkit-linear-gradient(rgba(170, 170, 170, 0), rgba(170, 170, 170, 0.8), rgba(145, 145, 145, 0));
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(170, 170, 170, 0)), color-stop(rgba(170, 170, 170, 0.8)), to(rgba(145, 145, 145, 0)));
+    background: linear-gradient(rgba(170, 170, 170, 0), rgba(170, 170, 170, 0.8), rgba(145, 145, 145, 0));
+    height: 100%;
+    margin: 0 0.53846rem;
+    position: relative;
+    width: 1px; }
+
+._3I5f-zFv,
+._3I5f-zFv ._3jFvE3ps {
+  width: 3.07692rem; }
+
+._3I5f-zFv i {
+  font-size: 1.23077rem;
+  line-height: 3.07692rem;
+  margin-left: 1px;
+  -webkit-transition: -webkit-transform 0.3s;
+  transition: -webkit-transform 0.3s;
+  transition: transform 0.3s;
+  transition: transform 0.3s, -webkit-transform 0.3s; }
+
+._3jFvE3ps {
+  background: var(--sidebarActiveColor);
+  bottom: 0;
+  color: var(--sidebarTextColor);
+  left: 0;
+  position: absolute;
+  text-align: center;
+  top: 0; }
+
+._1m3xJ_St {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-flex: 25;
+          flex: 25 0 auto;
+  font-size: 1.38462rem;
+  -webkit-box-pack: justify;
+          justify-content: space-between;
+  max-width: 550px;
+  padding: 0 10px; }
+  ._1m3xJ_St a {
+    color: var(--headerTextColor); }
+    ._1m3xJ_St a:hover {
+      text-decoration: none;
+      text-shadow: 0 0 4px #fff; }
+    ._1m3xJ_St a:active, ._1m3xJ_St a._2LihfTrG {
+      text-shadow: none; }
+
+._2LihfTrG {
+  font-weight: bold;
+  letter-spacing: 0; }
+
+._2wx45MYS {
+  color: var(--white); }
+
+._2UCMYPbC {
+  -webkit-box-align: center;
+          align-items: center;
+  align-self: flex-end;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-flex: 1;
+          flex: 1 0 auto;
+  height: 100%;
+  -webkit-box-pack: end;
+          justify-content: flex-end; }
+
+._1mNCXSUh {
+  color: var(--sidebarTextColor);
+  font-size: 0.84615rem;
+  line-height: 14px; }
+  ._1mNCXSUh:hover {
+    color: var(--sidebarTextColor); }
+
+._39qDSUxb {
+  font-weight: bold;
+  opacity: 0.8;
+  padding-right: 4px;
+  text-transform: uppercase; }
+  ._39qDSUxb:after {
+    content: ': '; }
+
+._2HHdzcBx {
+  color: var(--headerTextColor);
+  font-size: 1.53846rem;
+  vertical-align: top; }
+  ._2HHdzcBx:hover {
+    color: var(--headerTextColor);
+    text-decoration: none;
+    text-shadow: 0 0 4px #fff; }
+
+@media (max-width: 1199px) {
+  ._1m3xJ_St {
+    justify-content: space-around;
+    padding: 0; }
+  ._1m3xJ_St a {
+    font-size: 1.23077rem; }
+  ._1mNCXSUh {
+    font-size: 0.76923rem; } }
+
+@media (max-width: 767px) {
+  ._1m3xJ_St {
+    flex-shrink: 1;
+    flex-wrap: wrap; }
+    ._1m3xJ_St a {
+      font-size: 1.07692rem; } }
+
+/* See http://mrdanadams.com/2012/pixel-ems-css-conversion-sass-mixin/ */
+/* Convert PX units to EMs.
+Ex: margin-right: prem(16);
+*/
+/* Rounds EMs to the nearest .1 to be nicer. Useful for when browsers choke
+   on bizarre em values
+ */
+/* Used to convert PX to EMs for multiple properties or values or both.
+$base is an optional measurement that allows making measurements relative to the parent font size rather than the current. Also accepts a list of lists (instead a list of values) for properties that accept multiple lists of values. Only numbers of converted; everything else is passed through.
+
+Examples:
+
+@include scale(line-height, 30)
+@include scale(line-height, 30, 16)
+@include scale(width height, 125);
+@include scale(padding, 0 25, 16);
+@include scale(text-shadow, (#0d6e28 1 1) (#777 0 0 2), 16);
+@include scale(box-shadow, (inset 0 0 0 1 #2a9022) (inset 0 0 3 #459966), 16);
+*/
+/*
+ * NOTE: Don't specify CSS Custom Properties (Variables) here as they will be
+ * duplicated on import of this file. Please use variables-custom-properties.scss for new variables
+ */
+/**
+ * Official BitMEX Color Palette
+ * @see https://docs.google.com/document/d/14kCw1-SS705qNBGvbwh23RedY1lAPoO7VVFmrcOAdP8/edit
+*/
+
+/**
+* Use em or rem font-size in Bootstrap 3
+* Based on Less version here: https://gist.github.com/jasny/9731895
+* Values pulled from _variables.scss
+*/
+/* See http://mrdanadams.com/2012/pixel-ems-css-conversion-sass-mixin/ */
+/* Convert PX units to EMs.
+Ex: margin-right: prem(16);
+*/
+/* Rounds EMs to the nearest .1 to be nicer. Useful for when browsers choke
+   on bizarre em values
+ */
+/* Used to convert PX to EMs for multiple properties or values or both.
+$base is an optional measurement that allows making measurements relative to the parent font size rather than the current. Also accepts a list of lists (instead a list of values) for properties that accept multiple lists of values. Only numbers of converted; everything else is passed through.
+
+Examples:
+
+@include scale(line-height, 30)
+@include scale(line-height, 30, 16)
+@include scale(width height, 125);
+@include scale(padding, 0 25, 16);
+@include scale(text-shadow, (#0d6e28 1 1) (#777 0 0 2), 16);
+@include scale(box-shadow, (inset 0 0 0 1 #2a9022) (inset 0 0 3 #459966), 16);
+*/
+.aD6uiFfL {
+  margin-top: var(--spacing2); }
+
+._10Ux5VKJ {
+  margin-bottom: var(--spacing2); }
+
+._2JAEUS9_ {
+  margin-bottom: var(--spacing1); }
+
+._293-lABn {
+  margin-left: var(--spacing1); }
+
+._1JfvV5dU {
+  margin-left: var(--spacingHalf); }
+
+._3fQkhO84 {
+  background-color: var(--tabHeaderBackground);
+  padding: var(--spacing2) var(--spacing2) var(--spacing2) var(--spacing2);
+  max-width: 42.30769rem; }
+  ._3fQkhO84 input {
+    color: var(--primary-text);
+    border: 1px solid var(--input-border);
+    background-color: var(--input-bg); }
+
+.yy81lNnD {
+  border: none;
+  background: none;
+  outline: none;
+  padding: 0; }
+  .yy81lNnD:hover {
+    cursor: pointer;
+    text-decoration: underline; }
+
+._1gqbDsL2 ._1RApR9Tu {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: center;
+          align-items: center; }
+  ._1gqbDsL2 ._1RApR9Tu input {
+    width: 100%;
+    outline: none;
+    color: var(--primary-text);
+    border: 1px solid var(--input-border);
+    background-color: var(--input-bg); }
+
+._1gqbDsL2 ._3JELlj4Y {
+  cursor: pointer;
+  -webkit-text-decoration: underline dotted;
+          text-decoration: underline dotted; }
+  ._1gqbDsL2 ._3JELlj4Y:hover {
+    -webkit-text-decoration: underline solid;
+            text-decoration: underline solid; }
+
+._3pt-fDeu {
+  margin: 0 0 1.53846rem 0;
+  font-size: 1rem; }
+  ._3pt-fDeu ._1iE4ozFN {
+    display: block;
+    font-weight: 600; }
+  ._3pt-fDeu ._2Dh84nBj {
+    color: var(--primary-text);
+    background-color: var(--input-bg);
+    border: 1px solid var(--input-border);
+    min-height: calc(1.73626rem + 8px);
+    height: calc(1.73626rem + 8px);
+    outline: none;
+    width: 100%;
+    padding: 0.30769rem; }
+    ._3pt-fDeu ._2Dh84nBj:disabled {
+      background-color: var(--input-bg-disabled); }
+
+#_1SEPPy1d {
+  text-align: left;
+  margin: var(--spacing1); }
+
+.S8AmxmDV .dialogCancel {
+  display: none; }
+
+.S8AmxmDV .dialog {
+  max-width: 90%; }
+  .S8AmxmDV .dialog .body,
+  .S8AmxmDV .dialog .widget {
+    padding: 0;
+    background: none;
+    box-shadow: none;
+    border: 0;
+    outline: 0; }
+  .S8AmxmDV .dialog .widget-controls {
+    margin-right: 20px; }
+  .S8AmxmDV .dialog .body {
+    padding-bottom: 10px; }
+  .S8AmxmDV .dialog hr {
+    border-top-color: var(--hr); }
+  .S8AmxmDV .dialog h4 {
+    border-bottom-color: var(--hr); }
+
+.popUpWidget.closed .widget-controls .dropdown {
+  display: none; }
+
+._36m_l82u {
+  padding-top: 2px; }
+  ._36m_l82u li > a {
+    padding: 3px 8px; }
+  ._36m_l82u .wTK2uW6M {
+    color: var(--link-color) !important; }
+    ._36m_l82u .wTK2uW6M:hover {
+      text-decoration: underline;
+      background-color: inherit; }
+
+._2QJpJQ4Y {
+  border-bottom: 1px solid var(--separatorColor);
+  font-weight: 600;
+  margin-bottom: 2px;
+  padding-bottom: 2px;
+  padding-left: 8px; }
+
+._1g_CtwBJ {
+  border-top: 1px solid var(--separatorColor);
+  margin-top: 2px;
+  padding-top: 2px; }
+
+.wTK2uW6M::after {
+  content: '\F08E';
+  float: right;
+  font-family: 'icomoon';
+  font-size: 10px; }
+
+._2fQkZnHa {
+  padding: 0 6px; }
+
+._2IuDjYzm a {
+  font-weight: 600 !important; }
+
+._2IuDjYzm::before {
+  color: var(--link-color);
+  content: '\F00C';
+  float: right;
+  font-family: 'icomoon';
+  padding-top: 3px;
+  position: absolute;
+  right: 10px; }
+
+/* See http://mrdanadams.com/2012/pixel-ems-css-conversion-sass-mixin/ */
+/* Convert PX units to EMs.
+Ex: margin-right: prem(16);
+*/
+/* Rounds EMs to the nearest .1 to be nicer. Useful for when browsers choke
+   on bizarre em values
+ */
+/* Used to convert PX to EMs for multiple properties or values or both.
+$base is an optional measurement that allows making measurements relative to the parent font size rather than the current. Also accepts a list of lists (instead a list of values) for properties that accept multiple lists of values. Only numbers of converted; everything else is passed through.
+
+Examples:
+
+@include scale(line-height, 30)
+@include scale(line-height, 30, 16)
+@include scale(width height, 125);
+@include scale(padding, 0 25, 16);
+@include scale(text-shadow, (#0d6e28 1 1) (#777 0 0 2), 16);
+@include scale(box-shadow, (inset 0 0 0 1 #2a9022) (inset 0 0 3 #459966), 16);
+*/
+.fK4mUN04 {
+  -webkit-box-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: flex;
+  height: 240px;
+  -webkit-box-pack: center;
+          justify-content: center;
+  overflow: auto; }
+
+._27ZIErI4 {
+  background: var(--failure10);
+  color: var(--failure80); }
+
+._3lG5zC3T {
+  background: var(--warning10);
+  color: var(--warning80); }
+
+._2BzeaBh2 {
+  margin-left: 2rem; }
+  ._2BzeaBh2 ol,
+  ._2BzeaBh2 ul {
+    margin-bottom: 10px;
+    padding-left: 1.38462rem; }
+
+._1EwaNYDv {
+  height: 420px; }
+
+._1ZxDdqEd {
+  margin-top: 1.69231rem;
+  margin-bottom: -prem(22); }
+
+._2k4EEVR2 {
+  max-width: 57rem; }
+
+._24E_eLn2 {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  font-weight: 800; }
+  ._24E_eLn2 i {
+    width: 2rem; }
+
+@media screen and (max-width: 768px) {
+  .fK4mUN04 {
+    height: inherit; } }
+
+/* See http://mrdanadams.com/2012/pixel-ems-css-conversion-sass-mixin/ */
+/* Convert PX units to EMs.
+Ex: margin-right: prem(16);
+*/
+/* Rounds EMs to the nearest .1 to be nicer. Useful for when browsers choke
+   on bizarre em values
+ */
+/* Used to convert PX to EMs for multiple properties or values or both.
+$base is an optional measurement that allows making measurements relative to the parent font size rather than the current. Also accepts a list of lists (instead a list of values) for properties that accept multiple lists of values. Only numbers of converted; everything else is passed through.
+
+Examples:
+
+@include scale(line-height, 30)
+@include scale(line-height, 30, 16)
+@include scale(width height, 125);
+@include scale(padding, 0 25, 16);
+@include scale(text-shadow, (#0d6e28 1 1) (#777 0 0 2), 16);
+@include scale(box-shadow, (inset 0 0 0 1 #2a9022) (inset 0 0 3 #459966), 16);
+*/
+/*
+ * NOTE: Don't specify CSS Custom Properties (Variables) here as they will be
+ * duplicated on import of this file. Please use variables-custom-properties.scss for new variables
+ */
+/**
+ * Official BitMEX Color Palette
+ * @see https://docs.google.com/document/d/14kCw1-SS705qNBGvbwh23RedY1lAPoO7VVFmrcOAdP8/edit
+*/
+
+/**
+* Use em or rem font-size in Bootstrap 3
+* Based on Less version here: https://gist.github.com/jasny/9731895
+* Values pulled from _variables.scss
+*/
+._3E4xHpw5 {
+  text-rendering: auto !important; }
+
+._3B-VvUjB {
+  font-size: 14px;
+  margin: 4.92308rem auto;
+  max-width: 600px;
+  text-align: center; }
+
+/* See http://mrdanadams.com/2012/pixel-ems-css-conversion-sass-mixin/ */
+/* Convert PX units to EMs.
+Ex: margin-right: prem(16);
+*/
+/* Rounds EMs to the nearest .1 to be nicer. Useful for when browsers choke
+   on bizarre em values
+ */
+/* Used to convert PX to EMs for multiple properties or values or both.
+$base is an optional measurement that allows making measurements relative to the parent font size rather than the current. Also accepts a list of lists (instead a list of values) for properties that accept multiple lists of values. Only numbers of converted; everything else is passed through.
+
+Examples:
+
+@include scale(line-height, 30)
+@include scale(line-height, 30, 16)
+@include scale(width height, 125);
+@include scale(padding, 0 25, 16);
+@include scale(text-shadow, (#0d6e28 1 1) (#777 0 0 2), 16);
+@include scale(box-shadow, (inset 0 0 0 1 #2a9022) (inset 0 0 3 #459966), 16);
+*/
+._3Re5Guvu .react-json-tree ul:first-child {
+  padding: 3px 4px !important; }
+
+._5OOhWIeb {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  color: var(--text-color); }
+
+._1MNpKMbM {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
+  border: 1px solid var(--listItemBorder);
+  border-bottom: 0px;
+  padding: 0.92308rem 0.92308rem 0.92308rem 0.46154rem; }
+
+._2k-PzdEW {
+  display: -webkit-box;
+  display: flex; }
+
+.sDdugEld {
+  margin-left: 12px; }
+
+._2hkzjjEv {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: end;
+          justify-content: flex-end;
+  background-color: var(--lightGray);
+  border-radius: 6px;
+  color: #010101; }
+
+._1YY-pUyp {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
+  -webkit-box-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: end;
+          align-items: flex-end;
+  width: 100px;
+  margin-left: 0.46154rem; }
+
+._2dNFihvq {
+  background-color: #0d2026;
+  color: #f5f9fa; }
+
+._4hxh9juj::after {
+  font-family: 'icomoon';
+  content: '\F0D7';
+  margin-left: 0.46154rem; }
+
+._4hxh9juj._3ZL8OkPn::after {
+  content: '\F0D8';
+  color: #f5f9fa; }
+
+._32QcCsCc {
+  padding: 0.15385rem 0.46154rem 0 0;
+  width: 1.5rem; }
+
+._1XcseckE {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: end;
+          justify-content: flex-end; }
+
+._3urcMt0c {
+  display: -webkit-box;
+  display: flex;
+  margin-right: 18px;
+  -webkit-box-flex: 1;
+          flex: 1; }
+
+._3HfW-GZU {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: end;
+          justify-content: flex-end;
+  margin-bottom: 6px; }
+
+._2nWtCT3b {
+  font-weight: bold;
+  margin-bottom: 6px; }
+
+h4._7E9LT740 {
+  color: var(--textLightGray);
+  border-bottom: 1px solid var(--listItemBorder); }
+
+._2XFtnzZ4 {
+  padding: 0;
+  list-style-type: none; }
+
+._3mK9GC-2:nth-child(odd) {
+  background: var(--listItemOddBg); }
+
+._3mK9GC-2:last-child {
+  border-bottom: 1px solid var(--listItemBorder); }
+
+h3.fOTshz47 {
+  border-bottom: 1px solid var(--listItemBorder); }
+
+._2ZeLIozx {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+          align-items: center; }
+
+.c9Qd-Gp9 {
+  margin: 0; }
+
+._1UrglDAt {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: center;
+          justify-content: center;
+  margin: 24px; }
+
+._193GRWh2 {
+  font-weight: 700;
+  padding: 6px 12px; }
+
+._193GRWh2:focus {
+  background-color: var(--lightGray); }
+
+._10Uwb6Q4 .widget {
+  background: white; }
+  ._10Uwb6Q4 .widget header {
+    background: var(--freshdeskFromHeader);
+    border-bottom-color: var(--widgetBorder); }
+
+._10Uwb6Q4 p {
+  color: black; }
+
+#_2Qm_LtGy {
+  border: none;
+  border-bottom: 2px solid var(--logoBlue); }
+  #_2Qm_LtGy td {
+    border: none; }
+  #_2Qm_LtGy td:nth-child(1),
+  #_2Qm_LtGy td:nth-child(2),
+  #_2Qm_LtGy td:nth-child(4),
+  #_2Qm_LtGy td:nth-child(6) {
+    width: 10%; }
+  #_2Qm_LtGy td:nth-child(3),
+  #_2Qm_LtGy td:nth-child(5),
+  #_2Qm_LtGy td:nth-child(10) {
+    padding-left: 1rem;
+    width: 8%; }
+  #_2Qm_LtGy td:nth-child(7),
+  #_2Qm_LtGy td:nth-child(8),
+  #_2Qm_LtGy td:nth-child(9) {
+    width: 12%; }
+  #_2Qm_LtGy thead td {
+    vertical-align: top;
+    padding-top: 4px; }
+  #_2Qm_LtGy tbody tr:nth-child(odd) td {
+    background-color: var(--subTableStripeBG); }
+  #_2Qm_LtGy tbody tr:last-child td {
+    border-bottom: 2px solid var(--logoBlue); }
+  #_2Qm_LtGy tbody td {
+    font-weight: var(--fontWeightBase); }
+  #_2Qm_LtGy .KkzeMmC1 {
+    margin: 4px 0;
+    padding-left: 4px;
+    border-left: 3px solid var(--lightGray); }
+  #_2Qm_LtGy ._1T4XGYTl .KkzeMmC1 {
+    border-left: 3px solid var(--green); }
+  #_2Qm_LtGy ._3y5QGTn3 .KkzeMmC1 {
+    border-left: 3px solid var(--red); }
+  #_2Qm_LtGy ._2XI_iz2- {
+    text-align: left; }
+  #_2Qm_LtGy tr:last-child td._2XI_iz2- {
+    border-bottom: 2px solid var(--logoBlue); }
+  #_2Qm_LtGy ._3TJXwb4z {
+    display: block;
+    margin-top: -4px;
+    font-weight: var(--fontWeightBase); }
+  #_2Qm_LtGy ._1Ectr5Qt {
+    display: block;
+    margin-top: -6px;
+    font-size: 0.85rem;
+    font-weight: var(--fontWeightBase); }
+  #_2Qm_LtGy ._2BjEz8iO {
+    text-align: left; }
+
+#_2p0Q_-lc ._2N2euOsX {
+  padding: 0; }
+
+#_2p0Q_-lc td {
+  background-color: var(--subTableBG);
+  vertical-align: middle;
+  border: none; }
+  #_2p0Q_-lc td ._2fvKV5nn tbody > tr:nth-child(odd) > td {
+    background-color: var(--subTableBG); }
+
+#_2p0Q_-lc ._1HoXN1Bv {
+  text-align: left;
+  color: var(--logoBlue);
+  border-bottom: 1px solid var(--logoBlue); }
+
+/* See http://mrdanadams.com/2012/pixel-ems-css-conversion-sass-mixin/ */
+/* Convert PX units to EMs.
+Ex: margin-right: prem(16);
+*/
+/* Rounds EMs to the nearest .1 to be nicer. Useful for when browsers choke
+   on bizarre em values
+ */
+/* Used to convert PX to EMs for multiple properties or values or both.
+$base is an optional measurement that allows making measurements relative to the parent font size rather than the current. Also accepts a list of lists (instead a list of values) for properties that accept multiple lists of values. Only numbers of converted; everything else is passed through.
+
+Examples:
+
+@include scale(line-height, 30)
+@include scale(line-height, 30, 16)
+@include scale(width height, 125);
+@include scale(padding, 0 25, 16);
+@include scale(text-shadow, (#0d6e28 1 1) (#777 0 0 2), 16);
+@include scale(box-shadow, (inset 0 0 0 1 #2a9022) (inset 0 0 3 #459966), 16);
+*/
+/*
+ * NOTE: Don't specify CSS Custom Properties (Variables) here as they will be
+ * duplicated on import of this file. Please use variables-custom-properties.scss for new variables
+ */
+/**
+ * Official BitMEX Color Palette
+ * @see https://docs.google.com/document/d/14kCw1-SS705qNBGvbwh23RedY1lAPoO7VVFmrcOAdP8/edit
+*/
+
+/**
+* Use em or rem font-size in Bootstrap 3
+* Based on Less version here: https://gist.github.com/jasny/9731895
+* Values pulled from _variables.scss
+*/
+/* See http://mrdanadams.com/2012/pixel-ems-css-conversion-sass-mixin/ */
+/* Convert PX units to EMs.
+Ex: margin-right: prem(16);
+*/
+/* Rounds EMs to the nearest .1 to be nicer. Useful for when browsers choke
+   on bizarre em values
+ */
+/* Used to convert PX to EMs for multiple properties or values or both.
+$base is an optional measurement that allows making measurements relative to the parent font size rather than the current. Also accepts a list of lists (instead a list of values) for properties that accept multiple lists of values. Only numbers of converted; everything else is passed through.
+
+Examples:
+
+@include scale(line-height, 30)
+@include scale(line-height, 30, 16)
+@include scale(width height, 125);
+@include scale(padding, 0 25, 16);
+@include scale(text-shadow, (#0d6e28 1 1) (#777 0 0 2), 16);
+@include scale(box-shadow, (inset 0 0 0 1 #2a9022) (inset 0 0 3 #459966), 16);
+*/
+._1Ad5rd2C {
+  margin: 0.76923rem 0;
+  margin: 0.76923rem 0; }
+  ._1Ad5rd2C ul {
+    margin-left: -1.76923rem; }
+
+._3YAELB6k {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+          justify-content: space-between; }
+  ._3YAELB6k ._15qqLVOq img {
+    height: 17.53846rem;
+    width: 17.53846rem;
+    min-width: 17.53846rem; }
+
+._12doD198 {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
+  justify-content: space-around;
+  margin: 0 0.76923rem; }
+  ._12doD198 ul {
+    margin-left: -1.76923rem; }
+
+._1hdJ-hob {
+  display: -webkit-box;
+  display: flex; }
+  ._1hdJ-hob > * {
+    margin-right: 0.76923rem; }
+
+.pFI2wpyp {
+  background: var(--input-bg);
+  border: 1px solid var(--input-border);
+  border-radius: 0.30769rem;
+  color: var(--primaryTextColor);
+  height: 8.92308rem;
+  padding: 0.30769rem 0.61538rem;
+  width: 85%; }
+
+._1ROwXuN8 {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+          flex-direction: row; }
+  ._1ROwXuN8 > * {
+    margin: 0;
+    margin-right: 0.76923rem;
+    line-height: 1.3rem; }
+  ._1ROwXuN8 ._33s0XaDk span[class='button'] {
+    background: var(--grey40); }
+  ._1ROwXuN8 ._33s0XaDk span[class='track'] {
+    border: 1px solid var(--grey40);
+    background: var(--grey10); }
+  ._1ROwXuN8 ._1LrducDb span[class='button'] {
+    background: var(--green50); }
+  ._1ROwXuN8 ._1LrducDb span[class='track'] {
+    border: 1px solid var(--grey40);
+    background: var(--green10); }
+  ._1ROwXuN8 .wLa-Lr_D {
+    color: var(--toggle-label-off);
+    text-transform: uppercase; }
+  ._1ROwXuN8 .W5eD9Vb6 {
+    color: var(--toggle-label-on);
+    text-transform: uppercase; }
+
+.RTVRBqNF ._3HGHScn9 {
+  width: 25%; }
+
+.weyQuBj4 {
+  line-height: 1.53846rem;
+  padding: 0.61538rem;
+  max-width: 85%;
+  font-family: "Open Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif; }
+  .weyQuBj4 a {
+    color: var(--linkText);
+    text-decoration: underline;
+    cursor: pointer; }
+  .weyQuBj4 h4 {
+    font-size: 1.07692rem;
+    font-weight: bold;
+    margin: 0; }
+  .weyQuBj4 h5 {
+    font-weight: 600;
+    margin: 0; }
+  .weyQuBj4 hr {
+    margin: 0px;
+    background-color: var(--hr);
+    height: 1px;
+    border: 0; }
+  .weyQuBj4 input {
+    background: var(--input-bg);
+    border: 1px solid var(--input-border);
+    border-radius: 0.30769rem;
+    height: 2.46154rem;
+    padding: 0.30769rem 0.61538rem;
+    width: 18.46154rem;
+    color: var(--primaryTextColor); }
+  .weyQuBj4 ::-webkit-input-placeholder {
+    color: var(--disabledTextColor); }
+  .weyQuBj4 ::-moz-placeholder {
+    color: var(--disabledTextColor); }
+  .weyQuBj4 ::-ms-input-placeholder {
+    color: var(--disabledTextColor); }
+  .weyQuBj4 ::placeholder {
+    color: var(--disabledTextColor); }
+  .weyQuBj4 button {
+    height: 2.15385rem;
+    background: var(--tabBGColor);
+    border: 1px solid var(--tabBorderColor);
+    border-radius: 0.30769rem;
+    color: var(--panelTextColor);
+    font-weight: 600;
+    padding: 0.15385rem 0.61538rem;
+    text-align: center; }
+  .weyQuBj4 button:disabled {
+    height: 2.15385rem;
+    background: var(--tabBGColor);
+    border: 1px solid --tabBorderColor;
+    border-radius: 0.30769rem;
+    color: var(--disabledTextColor);
+    font-weight: 600;
+    text-align: center; }
+  .weyQuBj4 button._3iRvKTWj {
+    background: var(--actionBGColor);
+    border: 1px solid var(--actionBorderColor);
+    color: var(--actionTextColor); }
+    .weyQuBj4 button._3iRvKTWj:disabled {
+      background: var(--disabledBGColor);
+      border: 1px solid var(--disabledBorderColor);
+      color: var(--disabledTextColor); }
+  .weyQuBj4 button._3qchv4Tz {
+    background: var(--panelBGColor);
+    border: 1px solid var(--panelBorderColor);
+    color: var(--panelTextColor); }
+    .weyQuBj4 button._3qchv4Tz:disabled {
+      color: var(--disabledTextColor);
+      background: var(--disabledBGColor);
+      border: 1px solid var(--disabledBorderColor); }
+  .weyQuBj4 p {
+    margin: 0; }
+  .weyQuBj4 table {
+    width: 100%; }
+    .weyQuBj4 table th {
+      background: var(--headerBackground);
+      color: var(--headerTextColor); }
+    .weyQuBj4 table th,
+    .weyQuBj4 table td {
+      padding: 0.30769rem 1.53846rem;
+      border: 1px solid var(--tableBorderOuter); }
+  .weyQuBj4 .Rf-ICPQm > * {
+    margin: 0 0 1.23077rem; }
+  .weyQuBj4 ._7ZklPFSz {
+    font-size: 2rem;
+    font-weight: 600;
+    height: 1.76923rem; }
+  .weyQuBj4 ._32czwF5y {
+    padding: 16px;
+    background: var(--widgetBackground); }
+  .weyQuBj4 .diUYwFUp {
+    font-weight: 600;
+    margin-bottom: 0.61538rem;
+    line-height: 1rem; }
+
+._1hlfIfZB {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
+  max-width: 39.61538rem;
+  text-align: left;
+  padding: 0.92308rem 0.46154rem;
+  line-height: 1.53846rem; }
+  ._1hlfIfZB h5 {
+    margin: 0; }
+  ._1hlfIfZB .diUYwFUp {
+    font-weight: 600;
+    margin: 0 0 0.61538rem;
+    line-height: 1.53846rem; }
+  ._1hlfIfZB input {
+    background: var(--input-bg);
+    border: 1px solid var(--input-border);
+    border-radius: 0.30769rem;
+    height: 2.46154rem;
+    padding: 0.30769rem 0.61538rem;
+    width: 18.46154rem;
+    color: var(--primaryTextColor); }
+  ._1hlfIfZB > * {
+    margin: 0 0 1.23077rem; }
+  ._1hlfIfZB div:last-child {
+    margin: 0; }
+
+._1mMr2f9i {
+  background: var(--well-bg-info);
+  border: 1px solid var(--well-border-info);
+  border-radius: 0.30769rem;
+  padding: 1.23077rem;
+  margin: 1.53846rem 0; }
+  ._1mMr2f9i > *,
+  ._1mMr2f9i > p,
+  ._1mMr2f9i h5 {
+    margin-bottom: 0.76923rem; }
+
+._20tdyH6X {
+  background: var(--well-bg-warn);
+  border: 1px solid var(--well-border-warn);
+  border-radius: 0.30769rem;
+  color: var(--state-danger-text);
+  padding: 1.23077rem; }
+
+@media screen and (max-width: 900px) {
+  ._3YAELB6k {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+            flex-direction: column; } }
+
+@media screen and (max-width: 767px) {
+  .weyQuBj4 {
+    padding: none;
+    max-width: 100%; } }
+
+/* See http://mrdanadams.com/2012/pixel-ems-css-conversion-sass-mixin/ */
+/* Convert PX units to EMs.
+Ex: margin-right: prem(16);
+*/
+/* Rounds EMs to the nearest .1 to be nicer. Useful for when browsers choke
+   on bizarre em values
+ */
+/* Used to convert PX to EMs for multiple properties or values or both.
+$base is an optional measurement that allows making measurements relative to the parent font size rather than the current. Also accepts a list of lists (instead a list of values) for properties that accept multiple lists of values. Only numbers of converted; everything else is passed through.
+
+Examples:
+
+@include scale(line-height, 30)
+@include scale(line-height, 30, 16)
+@include scale(width height, 125);
+@include scale(padding, 0 25, 16);
+@include scale(text-shadow, (#0d6e28 1 1) (#777 0 0 2), 16);
+@include scale(box-shadow, (inset 0 0 0 1 #2a9022) (inset 0 0 3 #459966), 16);
+*/
+/*
+ * NOTE: Don't specify CSS Custom Properties (Variables) here as they will be
+ * duplicated on import of this file. Please use variables-custom-properties.scss for new variables
+ */
+/**
+ * Official BitMEX Color Palette
+ * @see https://docs.google.com/document/d/14kCw1-SS705qNBGvbwh23RedY1lAPoO7VVFmrcOAdP8/edit
+*/
+
+/**
+* Use em or rem font-size in Bootstrap 3
+* Based on Less version here: https://gist.github.com/jasny/9731895
+* Values pulled from _variables.scss
+*/
+._1emCXewV {
+  padding: 0;
+  contain: initial; }
+  ._1emCXewV > header {
+    margin: 0;
+    text-align: center; }
+    ._1emCXewV > header .nav-tabs {
+      padding-left: 5px; }
+    ._1emCXewV > header .tabTitle {
+      line-height: 1em; }
+  ._1emCXewV ._1ZH0t-qa {
+    display: block;
+    font-weight: bold;
+    line-height: 1.23077rem; }
+  ._1emCXewV ._3ZazE3dq {
+    font-weight: normal;
+    text-align: center;
+    font-family: Monaco, Consolas, "Courier New", monospace;
+    font-style: italic;
+    font-size: 0.84615rem;
+    line-height: 1.15385rem; }
+  ._1emCXewV ._3I0bUkkP {
+    padding-left: 5px;
+    font-size: 0.84615rem; }
+    ._1emCXewV ._3I0bUkkP i {
+      position: relative;
+      left: 2px;
+      top: 0.5px;
+      width: 9px; }
+  ._1emCXewV ._2fKWR8UW {
+    padding: 0 5px;
+    display: -webkit-box;
+    display: flex;
+    flex-wrap: wrap; }
+  ._1emCXewV ._1WDWV4oI {
+    color: var(--transparentTextColor); }
+  ._1emCXewV ._3v76-70k {
+    margin: 0 2px;
+    font-size: 0.84615rem; }
+  ._1emCXewV ._9HrKZbhY {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0;
+    padding-left: 0.46154rem;
+    margin: 0 0.38462rem; }
+    ._1emCXewV ._9HrKZbhY:before {
+      content: '';
+      display: inline-block;
+      height: 101%;
+      vertical-align: middle; }
+    ._1emCXewV ._9HrKZbhY i {
+      color: inherit; }
+    ._1emCXewV ._9HrKZbhY:hover {
+      color: inherit; }
+  ._1emCXewV ._3Bmg7M9Q {
+    -webkit-box-flex: 0;
+            flex: 0 0 auto;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-pack: end;
+            justify-content: flex-end;
+    -webkit-box-align: center;
+            align-items: center; }
+    ._1emCXewV ._3Bmg7M9Q i {
+      opacity: 0.7; }
+      ._1emCXewV ._3Bmg7M9Q i._2aX96BAa {
+        opacity: 1; }
+  ._1emCXewV ._3Bmg7M9Q .track {
+    background: #618fb0; }
+
+/* See http://mrdanadams.com/2012/pixel-ems-css-conversion-sass-mixin/ */
+/* Convert PX units to EMs.
+Ex: margin-right: prem(16);
+*/
+/* Rounds EMs to the nearest .1 to be nicer. Useful for when browsers choke
+   on bizarre em values
+ */
+/* Used to convert PX to EMs for multiple properties or values or both.
+$base is an optional measurement that allows making measurements relative to the parent font size rather than the current. Also accepts a list of lists (instead a list of values) for properties that accept multiple lists of values. Only numbers of converted; everything else is passed through.
+
+Examples:
+
+@include scale(line-height, 30)
+@include scale(line-height, 30, 16)
+@include scale(width height, 125);
+@include scale(padding, 0 25, 16);
+@include scale(text-shadow, (#0d6e28 1 1) (#777 0 0 2), 16);
+@include scale(box-shadow, (inset 0 0 0 1 #2a9022) (inset 0 0 3 #459966), 16);
+*/
+/*
+ * NOTE: Don't specify CSS Custom Properties (Variables) here as they will be
+ * duplicated on import of this file. Please use variables-custom-properties.scss for new variables
+ */
+/**
+ * Official BitMEX Color Palette
+ * @see https://docs.google.com/document/d/14kCw1-SS705qNBGvbwh23RedY1lAPoO7VVFmrcOAdP8/edit
+*/
+
+/**
+* Use em or rem font-size in Bootstrap 3
+* Based on Less version here: https://gist.github.com/jasny/9731895
+* Values pulled from _variables.scss
+*/
+._2Ed6YDmm .k1Y3cZBG {
+  background: var(--anouncementBackground);
+  padding: 1.23077rem 0.61538rem; }
+  ._2Ed6YDmm .k1Y3cZBG > * {
+    color: var(--primaryText); }
+
+._2Ed6YDmm .gCbhhSoj {
+  background-image: -webkit-linear-gradient(166deg, var(--diagonalColorDark) 50%, var(--diagonalColorLight) 40%);
+  padding-bottom: 0; }
+  ._2Ed6YDmm .gCbhhSoj ._1-ygQKKm {
+    margin-top: 1.84615rem;
+    text-align: center; }
+  ._2Ed6YDmm .gCbhhSoj a {
+    color: var(--linkText);
+    font-size: 0.61538rem;
+    font-weight: 600; }
+    ._2Ed6YDmm .gCbhhSoj a > img {
+      height: 2.15385rem; }
+  ._2Ed6YDmm .gCbhhSoj img {
+    height: 6.76923rem; }
+
+._2bpYorwv {
+  position: absolute;
+  top: calc(prem(12) * -1);
+  right: 0px; }
+
+.Eitzyq2o {
+  width: 70%;
+  max-width: 800px;
+  margin: auto; }
+
+.VbLiMwLJ {
+  font-weight: 700;
+  margin-top: calc(-1 * prem(8));
+  text-align: center; }
+
+._1-ygQKKm {
+  text-align: left; }
+
+img {
+  max-width: 100%; }
+
+/* See http://mrdanadams.com/2012/pixel-ems-css-conversion-sass-mixin/ */
+/* Convert PX units to EMs.
+Ex: margin-right: prem(16);
+*/
+/* Rounds EMs to the nearest .1 to be nicer. Useful for when browsers choke
+   on bizarre em values
+ */
+/* Used to convert PX to EMs for multiple properties or values or both.
+$base is an optional measurement that allows making measurements relative to the parent font size rather than the current. Also accepts a list of lists (instead a list of values) for properties that accept multiple lists of values. Only numbers of converted; everything else is passed through.
+
+Examples:
+
+@include scale(line-height, 30)
+@include scale(line-height, 30, 16)
+@include scale(width height, 125);
+@include scale(padding, 0 25, 16);
+@include scale(text-shadow, (#0d6e28 1 1) (#777 0 0 2), 16);
+@include scale(box-shadow, (inset 0 0 0 1 #2a9022) (inset 0 0 3 #459966), 16);
+*/
+/*
+ * NOTE: Don't specify CSS Custom Properties (Variables) here as they will be
+ * duplicated on import of this file. Please use variables-custom-properties.scss for new variables
+ */
+/**
+ * Official BitMEX Color Palette
+ * @see https://docs.google.com/document/d/14kCw1-SS705qNBGvbwh23RedY1lAPoO7VVFmrcOAdP8/edit
+*/
+
+/**
+* Use em or rem font-size in Bootstrap 3
+* Based on Less version here: https://gist.github.com/jasny/9731895
+* Values pulled from _variables.scss
+*/
+._2TM1YYKW {
+  background: white;
+  color: var(--grey40);
+  margin: 0.61538rem 0;
+  padding: 0.61538rem;
+  font-size: 1.23077rem;
+  font-family: monospace; }
+
+._3_IjMXhv {
+  color: var(--red50);
+  position: relative; }
+
+._3_IjMXhv::before {
+  content: '^';
+  position: absolute;
+  top: 0.92308rem; }
+
+/* See http://mrdanadams.com/2012/pixel-ems-css-conversion-sass-mixin/ */
+/* Convert PX units to EMs.
+Ex: margin-right: prem(16);
+*/
+/* Rounds EMs to the nearest .1 to be nicer. Useful for when browsers choke
+   on bizarre em values
+ */
+/* Used to convert PX to EMs for multiple properties or values or both.
+$base is an optional measurement that allows making measurements relative to the parent font size rather than the current. Also accepts a list of lists (instead a list of values) for properties that accept multiple lists of values. Only numbers of converted; everything else is passed through.
+
+Examples:
+
+@include scale(line-height, 30)
+@include scale(line-height, 30, 16)
+@include scale(width height, 125);
+@include scale(padding, 0 25, 16);
+@include scale(text-shadow, (#0d6e28 1 1) (#777 0 0 2), 16);
+@include scale(box-shadow, (inset 0 0 0 1 #2a9022) (inset 0 0 3 #459966), 16);
+*/
+/*
+ * NOTE: Don't specify CSS Custom Properties (Variables) here as they will be
+ * duplicated on import of this file. Please use variables-custom-properties.scss for new variables
+ */
+/**
+ * Official BitMEX Color Palette
+ * @see https://docs.google.com/document/d/14kCw1-SS705qNBGvbwh23RedY1lAPoO7VVFmrcOAdP8/edit
+*/
+
+/**
+* Use em or rem font-size in Bootstrap 3
+* Based on Less version here: https://gist.github.com/jasny/9731895
+* Values pulled from _variables.scss
+*/
+@-webkit-keyframes _1iFnN32Y {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg); }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg); } }
+@keyframes _1iFnN32Y {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg); }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg); } }
+
+._1iFnN32Y {
+  -webkit-animation: _1iFnN32Y 1.25s infinite linear;
+          animation: _1iFnN32Y 1.25s infinite linear; }
+
+/* See http://mrdanadams.com/2012/pixel-ems-css-conversion-sass-mixin/ */
+/* Convert PX units to EMs.
+Ex: margin-right: prem(16);
+*/
+/* Rounds EMs to the nearest .1 to be nicer. Useful for when browsers choke
+   on bizarre em values
+ */
+/* Used to convert PX to EMs for multiple properties or values or both.
+$base is an optional measurement that allows making measurements relative to the parent font size rather than the current. Also accepts a list of lists (instead a list of values) for properties that accept multiple lists of values. Only numbers of converted; everything else is passed through.
+
+Examples:
+
+@include scale(line-height, 30)
+@include scale(line-height, 30, 16)
+@include scale(width height, 125);
+@include scale(padding, 0 25, 16);
+@include scale(text-shadow, (#0d6e28 1 1) (#777 0 0 2), 16);
+@include scale(box-shadow, (inset 0 0 0 1 #2a9022) (inset 0 0 3 #459966), 16);
+*/
+/*
+ * NOTE: Don't specify CSS Custom Properties (Variables) here as they will be
+ * duplicated on import of this file. Please use variables-custom-properties.scss for new variables
+ */
+/**
+ * Official BitMEX Color Palette
+ * @see https://docs.google.com/document/d/14kCw1-SS705qNBGvbwh23RedY1lAPoO7VVFmrcOAdP8/edit
+*/
+
+/**
+* Use em or rem font-size in Bootstrap 3
+* Based on Less version here: https://gist.github.com/jasny/9731895
+* Values pulled from _variables.scss
+*/
+._3njaFf3G {
+  min-height: calc(1.73626rem + 8px);
+  height: calc(1.73626rem + 8px);
+  position: relative;
+  outline: none; }
+
+._39peTIJx {
+  border: 1px solid var(--input-border);
+  display: -webkit-box;
+  display: flex;
+  width: 100%;
+  color: var(--primary-text); }
+
+._1L6_7rIf {
+  outline: none;
+  border: none;
+  width: 100%;
+  padding: 0.30769rem;
+  background-color: var(--input-bg);
+  color: var(--primary-text); }
+
+._3hgxyHQE {
+  display: -webkit-box;
+  display: flex;
+  background-color: var(--backgroundAddition); }
+
+._3hD-o-pM {
+  width: calc(1.73626rem + 8px);
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+          align-items: center;
+  border-left: 1px solid var(--input-border); }
+
+._3THy9Jqb {
+  position: absolute;
+  z-index: 10;
+  border-top: none;
+  border: 1px solid var(--input-border);
+  background-color: var(--input-bg);
+  width: 100%;
+  cursor: pointer; }
+
+._3T3_qJPu {
+  padding: 0.30769rem; }
+  ._3T3_qJPu ._7aA49M4S {
+    font-size: 90%;
+    font-family: Monaco, monospace;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    direction: rtl; }
+  ._3T3_qJPu ._11MjjXV1 {
+    font-weight: 600; }
+
+._2wejuQ1p {
+  font-size: 80%;
+  background-color: var(--input-bg);
+  color: var(--input-border);
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+          flex-direction: row; }
+  ._2wejuQ1p ._1PkbfQfj {
+    padding-top: var(--spacingHalf);
+    padding-right: var(--spacingHalf); }
+
+.LoEBbVm7 {
+  background-color: var(--backgroundAddition); }
+
+/* See http://mrdanadams.com/2012/pixel-ems-css-conversion-sass-mixin/ */
+/* Convert PX units to EMs.
+Ex: margin-right: prem(16);
+*/
+/* Rounds EMs to the nearest .1 to be nicer. Useful for when browsers choke
+   on bizarre em values
+ */
+/* Used to convert PX to EMs for multiple properties or values or both.
+$base is an optional measurement that allows making measurements relative to the parent font size rather than the current. Also accepts a list of lists (instead a list of values) for properties that accept multiple lists of values. Only numbers of converted; everything else is passed through.
+
+Examples:
+
+@include scale(line-height, 30)
+@include scale(line-height, 30, 16)
+@include scale(width height, 125);
+@include scale(padding, 0 25, 16);
+@include scale(text-shadow, (#0d6e28 1 1) (#777 0 0 2), 16);
+@include scale(box-shadow, (inset 0 0 0 1 #2a9022) (inset 0 0 3 #459966), 16);
+*/
+/*
+ * NOTE: Don't specify CSS Custom Properties (Variables) here as they will be
+ * duplicated on import of this file. Please use variables-custom-properties.scss for new variables
+ */
+/**
+ * Official BitMEX Color Palette
+ * @see https://docs.google.com/document/d/14kCw1-SS705qNBGvbwh23RedY1lAPoO7VVFmrcOAdP8/edit
+*/
+
+/**
+* Use em or rem font-size in Bootstrap 3
+* Based on Less version here: https://gist.github.com/jasny/9731895
+* Values pulled from _variables.scss
+*/
+._11chCKT7 {
+  border: 1px solid var(--grey60);
+  border-radius: 4px;
+  background: var(--black);
+  padding: var(--spacing1);
+  color: var(--textPrimary);
+  display: -webkit-inline-box;
+  display: inline-flex;
+  -webkit-box-align: center;
+          align-items: center; }
+  ._11chCKT7 svg {
+    margin-left: calc(var(--spacingHalf) * -1);
+    margin-right: var(--spacingHalf);
+    width: 1.69231rem;
+    height: 1.69231rem;
+    fill: var(--textPrimary); }
+
+/* See http://mrdanadams.com/2012/pixel-ems-css-conversion-sass-mixin/ */
+/* Convert PX units to EMs.
+Ex: margin-right: prem(16);
+*/
+/* Rounds EMs to the nearest .1 to be nicer. Useful for when browsers choke
+   on bizarre em values
+ */
+/* Used to convert PX to EMs for multiple properties or values or both.
+$base is an optional measurement that allows making measurements relative to the parent font size rather than the current. Also accepts a list of lists (instead a list of values) for properties that accept multiple lists of values. Only numbers of converted; everything else is passed through.
+
+Examples:
+
+@include scale(line-height, 30)
+@include scale(line-height, 30, 16)
+@include scale(width height, 125);
+@include scale(padding, 0 25, 16);
+@include scale(text-shadow, (#0d6e28 1 1) (#777 0 0 2), 16);
+@include scale(box-shadow, (inset 0 0 0 1 #2a9022) (inset 0 0 3 #459966), 16);
+*/
+/*
+ * NOTE: Don't specify CSS Custom Properties (Variables) here as they will be
+ * duplicated on import of this file. Please use variables-custom-properties.scss for new variables
+ */
+/**
+ * Official BitMEX Color Palette
+ * @see https://docs.google.com/document/d/14kCw1-SS705qNBGvbwh23RedY1lAPoO7VVFmrcOAdP8/edit
+*/
+
+/**
+* Use em or rem font-size in Bootstrap 3
+* Based on Less version here: https://gist.github.com/jasny/9731895
+* Values pulled from _variables.scss
+*/
+/* Base styles */
+.Fi51qoR6 {
+  --btn20: var(--info20);
+  --btn50: var(--info50);
+  --btn60: var(--info60);
+  --btn70: var(--info70);
+  --btn80: var(--info80);
+  --btn90: var(--info90);
+  --btn95: var(--info95);
+  -webkit-box-align: center;
+          align-items: center;
+  border-radius: 0.15385rem;
+  border: none;
+  color: var(--grey10);
+  cursor: pointer;
+  display: -webkit-box;
+  display: flex;
+  font-size: 1.23077rem;
+  font-weight: 600;
+  -webkit-box-pack: center;
+          justify-content: center;
+  line-height: 1.84615rem;
+  padding: 0.61538rem 0.15385rem; }
+  .Fi51qoR6 svg {
+    fill: var(--textPrimary);
+    width: 1.23077rem;
+    height: 1.23077rem; }
+
+.JYcT02E9:hover.JYcT02E9:hover {
+  text-decoration: none; }
+
+/* Sizes */
+._1-6UW6m_ {
+  padding: 0.61538rem 1.23077rem 0.61538rem 1.23077rem; }
+
+._1ACE9rsZ {
+  width: 26.46154rem; }
+
+._31wsqnZ6 {
+  width: 100%; }
+
+._1yRo5MQf svg {
+  margin-right: 0.61538rem;
+  margin-left: -0.61538rem; }
+
+.M5pIDxIY svg {
+  margin-left: 0.61538rem;
+  margin-right: -0.61538rem; }
+
+/* Colours */
+._12FfdC3x {
+  --btn20: var(--success20);
+  --btn50: var(--success40);
+  --btn60: var(--success50);
+  --btn70: var(--success60);
+  --btn80: var(--success70);
+  --btn90: var(--success80);
+  --btn95: var(--success90); }
+
+._3iA_LHqI {
+  --btn20: var(--failure20);
+  --btn50: var(--failure50);
+  --btn60: var(--failure60);
+  --btn70: var(--failure70);
+  --btn80: var(--failure80);
+  --btn90: var(--failure90);
+  --btn95: var(--failure95); }
+
+._1G6Ew_uB {
+  --btn20: var(--warn20);
+  --btn50: var(--warning50);
+  --btn60: var(--warning60);
+  --btn70: var(--warning70);
+  --btn80: var(--warning80);
+  --btn90: var(--warning90);
+  --btn95: var(--warning95); }
+
+._1nLhZt7T {
+  --btn20: var(--neutral20);
+  --btn50: var(--neutral50);
+  --btn60: var(--neutral60);
+  --btn70: var(--neutral70);
+  --btn80: var(--neutral80);
+  --btn90: var(--neutral90);
+  --btn95: var(--neutral95); }
+
+/* Primary styles */
+._1iulX137 {
+  background-color: var(--btn60); }
+
+._1iulX137:hover,
+._1iulX137:focus {
+  background-color: var(--btn80); }
+
+._1iulX137:hover div {
+  background-color: var(--btn70); }
+
+._1iulX137:active {
+  background-color: var(--btn90);
+  color: var(--btn20); }
+  ._1iulX137:active svg {
+    fill: var(--btn20); }
+
+._1iulX137:disabled {
+  background-color: var(--btn95); }
+
+/* Secondary styles */
+._16myzt4x {
+  background-color: transparent;
+  border: solid 0.15385rem var(--btn60);
+  color: var(--textPrimary);
+  --px6: 0.4615384615rem;
+  padding: 0.46154rem 1.23077rem; }
+
+._16myzt4x:hover,
+._16myzt4x:focus {
+  background-color: var(--btn70); }
+
+._16myzt4x:active {
+  background-color: var(--btn80); }
+
+._16myzt4x:disabled {
+  background-color: transparent;
+  border: solid 0.15385rem var(--btn95);
+  color: var(--textTertiary); }
+
+/* Tertiary styles */
+._1s2w8hZZ {
+  background-color: var(--neutral70); }
+
+._1s2w8hZZ:hover,
+._1s2w8hZZ:focus {
+  background-color: var(--neutral80); }
+
+._1s2w8hZZ:active {
+  background-color: var(--neutral90); }
+
+._1s2w8hZZ:disabled {
+  background-color: var(--neutral95); }
+
+/* Disable style*/
+.Fi51qoR6:disabled {
+  color: var(--neutral50); }
+  .Fi51qoR6:disabled svg {
+    fill: var(--neutral50); }
+
+/* See http://mrdanadams.com/2012/pixel-ems-css-conversion-sass-mixin/ */
+/* Convert PX units to EMs.
+Ex: margin-right: prem(16);
+*/
+/* Rounds EMs to the nearest .1 to be nicer. Useful for when browsers choke
+   on bizarre em values
+ */
+/* Used to convert PX to EMs for multiple properties or values or both.
+$base is an optional measurement that allows making measurements relative to the parent font size rather than the current. Also accepts a list of lists (instead a list of values) for properties that accept multiple lists of values. Only numbers of converted; everything else is passed through.
+
+Examples:
+
+@include scale(line-height, 30)
+@include scale(line-height, 30, 16)
+@include scale(width height, 125);
+@include scale(padding, 0 25, 16);
+@include scale(text-shadow, (#0d6e28 1 1) (#777 0 0 2), 16);
+@include scale(box-shadow, (inset 0 0 0 1 #2a9022) (inset 0 0 3 #459966), 16);
+*/
+/*
+ * NOTE: Don't specify CSS Custom Properties (Variables) here as they will be
+ * duplicated on import of this file. Please use variables-custom-properties.scss for new variables
+ */
+/**
+ * Official BitMEX Color Palette
+ * @see https://docs.google.com/document/d/14kCw1-SS705qNBGvbwh23RedY1lAPoO7VVFmrcOAdP8/edit
+*/
+
+/**
+* Use em or rem font-size in Bootstrap 3
+* Based on Less version here: https://gist.github.com/jasny/9731895
+* Values pulled from _variables.scss
+*/
+.PGO9wlLL {
+  margin-bottom: var(--spacing1); }
+  .PGO9wlLL input[type='checkbox'] {
+    position: absolute;
+    opacity: 0; }
+  .PGO9wlLL input[type='checkbox'] + span > label {
+    -webkit-box-align: center;
+            align-items: center;
+    display: -webkit-box;
+    display: flex;
+    position: relative;
+    width: 100%; }
+  .PGO9wlLL input[type='checkbox'] + span > label::before {
+    background: none;
+    border-radius: 0.30769rem;
+    box-shadow: inset 0px 0px 0px 1px var(--grey70);
+    content: '';
+    display: inline-block;
+    height: 24px;
+    margin-right: 12px;
+    position: relative;
+    width: 24px; }
+  .PGO9wlLL input[type='checkbox'] + span > label:hover::before {
+    background-color: var(--grey80);
+    box-shadow: inset 0px 0px 0px 1px var(--grey70), 0px 0px 0px 1px var(--grey80); }
+  .PGO9wlLL input[type='checkbox'] + span > label:active::before {
+    background-color: var(--info90);
+    box-shadow: inset 0px 0px 0px 1px var(--grey70), 0px 0px 0px 1px var(--info90); }
+  .PGO9wlLL input[type='checkbox']:checked + span > label::after {
+    color: var(--backgroundMain);
+    content: '\F00C';
+    font-family: 'icomoon';
+    font-size: 16px;
+    left: 4px;
+    position: absolute;
+    speak: none; }
+  .PGO9wlLL input[type='checkbox']:checked + span > label::before {
+    background: var(--info50);
+    box-shadow: none; }
+  .PGO9wlLL input[type='checkbox']:focus + span > label::before {
+    box-shadow: inset 0px 0px 0px 1px var(--info50), 0px 0px 2px 2px var(--info70); }
+
+/* See http://mrdanadams.com/2012/pixel-ems-css-conversion-sass-mixin/ */
+/* Convert PX units to EMs.
+Ex: margin-right: prem(16);
+*/
+/* Rounds EMs to the nearest .1 to be nicer. Useful for when browsers choke
+   on bizarre em values
+ */
+/* Used to convert PX to EMs for multiple properties or values or both.
+$base is an optional measurement that allows making measurements relative to the parent font size rather than the current. Also accepts a list of lists (instead a list of values) for properties that accept multiple lists of values. Only numbers of converted; everything else is passed through.
+
+Examples:
+
+@include scale(line-height, 30)
+@include scale(line-height, 30, 16)
+@include scale(width height, 125);
+@include scale(padding, 0 25, 16);
+@include scale(text-shadow, (#0d6e28 1 1) (#777 0 0 2), 16);
+@include scale(box-shadow, (inset 0 0 0 1 #2a9022) (inset 0 0 3 #459966), 16);
+*/
+/*
+ * NOTE: Don't specify CSS Custom Properties (Variables) here as they will be
+ * duplicated on import of this file. Please use variables-custom-properties.scss for new variables
+ */
+/**
+ * Official BitMEX Color Palette
+ * @see https://docs.google.com/document/d/14kCw1-SS705qNBGvbwh23RedY1lAPoO7VVFmrcOAdP8/edit
+*/
+
+/**
+* Use em or rem font-size in Bootstrap 3
+* Based on Less version here: https://gist.github.com/jasny/9731895
+* Values pulled from _variables.scss
+*/
+/*
+ * Text Sizing Options
+ */
+._1eRiRrKJ._1eRiRrKJ {
+  color: var(--textPrimary);
+  font-family: "Open Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-weight: 400;
+  text-align: left;
+  font-size: 3.69231rem;
+  line-height: 4.46154rem;
+  letter-spacing: -0.25px; }
+  ._1eRiRrKJ._1eRiRrKJ h1,
+  ._1eRiRrKJ._1eRiRrKJ h2,
+  ._1eRiRrKJ._1eRiRrKJ h3,
+  ._1eRiRrKJ._1eRiRrKJ h4,
+  ._1eRiRrKJ._1eRiRrKJ h5,
+  ._1eRiRrKJ._1eRiRrKJ h6,
+  ._1eRiRrKJ._1eRiRrKJ span,
+  ._1eRiRrKJ._1eRiRrKJ p {
+    margin: 0; }
+
+._1j5L2A3w._1j5L2A3w {
+  color: var(--textPrimary);
+  font-family: "Open Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-weight: 400;
+  text-align: left;
+  font-size: 2.46154rem;
+  line-height: 3.23077rem;
+  letter-spacing: -0.25px; }
+  ._1j5L2A3w._1j5L2A3w h1,
+  ._1j5L2A3w._1j5L2A3w h2,
+  ._1j5L2A3w._1j5L2A3w h3,
+  ._1j5L2A3w._1j5L2A3w h4,
+  ._1j5L2A3w._1j5L2A3w h5,
+  ._1j5L2A3w._1j5L2A3w h6,
+  ._1j5L2A3w._1j5L2A3w span,
+  ._1j5L2A3w._1j5L2A3w p {
+    margin: 0; }
+
+._2Q77TNBM._2Q77TNBM {
+  color: var(--textPrimary);
+  font-family: "Open Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-weight: 400;
+  text-align: left;
+  font-size: 2.15385rem;
+  line-height: 3.07692rem;
+  letter-spacing: -0.25px; }
+  ._2Q77TNBM._2Q77TNBM h1,
+  ._2Q77TNBM._2Q77TNBM h2,
+  ._2Q77TNBM._2Q77TNBM h3,
+  ._2Q77TNBM._2Q77TNBM h4,
+  ._2Q77TNBM._2Q77TNBM h5,
+  ._2Q77TNBM._2Q77TNBM h6,
+  ._2Q77TNBM._2Q77TNBM span,
+  ._2Q77TNBM._2Q77TNBM p {
+    margin: 0; }
+
+.Gxl6U8PW.Gxl6U8PW {
+  color: var(--textPrimary);
+  font-family: "Open Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-weight: 400;
+  text-align: left;
+  font-size: 1.84615rem;
+  line-height: 2.76923rem;
+  letter-spacing: -0.25px; }
+  .Gxl6U8PW.Gxl6U8PW h1,
+  .Gxl6U8PW.Gxl6U8PW h2,
+  .Gxl6U8PW.Gxl6U8PW h3,
+  .Gxl6U8PW.Gxl6U8PW h4,
+  .Gxl6U8PW.Gxl6U8PW h5,
+  .Gxl6U8PW.Gxl6U8PW h6,
+  .Gxl6U8PW.Gxl6U8PW span,
+  .Gxl6U8PW.Gxl6U8PW p {
+    margin: 0; }
+
+._3hdn4TGp._3hdn4TGp {
+  color: var(--textPrimary);
+  font-family: "Open Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-weight: 400;
+  text-align: left;
+  font-size: 1.38462rem;
+  line-height: 2.15385rem;
+  letter-spacing: 0; }
+  ._3hdn4TGp._3hdn4TGp h1,
+  ._3hdn4TGp._3hdn4TGp h2,
+  ._3hdn4TGp._3hdn4TGp h3,
+  ._3hdn4TGp._3hdn4TGp h4,
+  ._3hdn4TGp._3hdn4TGp h5,
+  ._3hdn4TGp._3hdn4TGp h6,
+  ._3hdn4TGp._3hdn4TGp span,
+  ._3hdn4TGp._3hdn4TGp p {
+    margin: 0; }
+
+._1Si5ZKp-._1Si5ZKp- {
+  color: var(--textPrimary);
+  font-family: "Open Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-weight: 400;
+  text-align: left;
+  font-size: 1.07692rem;
+  line-height: 1.84615rem;
+  letter-spacing: 0; }
+  ._1Si5ZKp-._1Si5ZKp- h1,
+  ._1Si5ZKp-._1Si5ZKp- h2,
+  ._1Si5ZKp-._1Si5ZKp- h3,
+  ._1Si5ZKp-._1Si5ZKp- h4,
+  ._1Si5ZKp-._1Si5ZKp- h5,
+  ._1Si5ZKp-._1Si5ZKp- h6,
+  ._1Si5ZKp-._1Si5ZKp- span,
+  ._1Si5ZKp-._1Si5ZKp- p {
+    margin: 0; }
+
+.PFbm3PqI.PFbm3PqI {
+  color: var(--textPrimary);
+  font-family: "Open Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-weight: 400;
+  text-align: left;
+  font-size: 1rem;
+  line-height: 1.69231rem;
+  letter-spacing: 0; }
+  .PFbm3PqI.PFbm3PqI h1,
+  .PFbm3PqI.PFbm3PqI h2,
+  .PFbm3PqI.PFbm3PqI h3,
+  .PFbm3PqI.PFbm3PqI h4,
+  .PFbm3PqI.PFbm3PqI h5,
+  .PFbm3PqI.PFbm3PqI h6,
+  .PFbm3PqI.PFbm3PqI span,
+  .PFbm3PqI.PFbm3PqI p {
+    margin: 0; }
+
+._1ZvRPZsJ._1ZvRPZsJ {
+  color: var(--textPrimary);
+  font-family: "Open Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-weight: 400;
+  text-align: left;
+  font-size: 0.92308rem;
+  line-height: 1.53846rem;
+  letter-spacing: 0; }
+  ._1ZvRPZsJ._1ZvRPZsJ h1,
+  ._1ZvRPZsJ._1ZvRPZsJ h2,
+  ._1ZvRPZsJ._1ZvRPZsJ h3,
+  ._1ZvRPZsJ._1ZvRPZsJ h4,
+  ._1ZvRPZsJ._1ZvRPZsJ h5,
+  ._1ZvRPZsJ._1ZvRPZsJ h6,
+  ._1ZvRPZsJ._1ZvRPZsJ span,
+  ._1ZvRPZsJ._1ZvRPZsJ p {
+    margin: 0; }
+
+._2WM5n0nt._2WM5n0nt {
+  color: var(--textPrimary);
+  font-family: "Open Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-weight: 400;
+  text-align: left;
+  font-size: 0.84615rem;
+  line-height: 1.38462rem;
+  letter-spacing: 0; }
+  ._2WM5n0nt._2WM5n0nt h1,
+  ._2WM5n0nt._2WM5n0nt h2,
+  ._2WM5n0nt._2WM5n0nt h3,
+  ._2WM5n0nt._2WM5n0nt h4,
+  ._2WM5n0nt._2WM5n0nt h5,
+  ._2WM5n0nt._2WM5n0nt h6,
+  ._2WM5n0nt._2WM5n0nt span,
+  ._2WM5n0nt._2WM5n0nt p {
+    margin: 0; }
+
+/*
+ * Text Colour Options
+ */
+._3NgA4wD8._3NgA4wD8 {
+  color: var(--textPrimary); }
+
+._2OIxQ7bn._2OIxQ7bn {
+  color: var(--textSecondary); }
+
+.fnRjCkSO.fnRjCkSO {
+  color: var(--textTertiary); }
+
+._1R1ZYk9K._1R1ZYk9K {
+  color: var(--grey50); }
+
+.wc0VOxHC.wc0VOxHC {
+  color: var(--failure40); }
+
+/*
+ * Text Weight Options
+ */
+._2dP4N1Ou._2dP4N1Ou {
+  font-weight: 400; }
+
+._2LGB4kM1._2LGB4kM1 {
+  font-weight: 600; }
+
+._1iUmsdap._1iUmsdap {
+  font-weight: 700; }
+
+/*
+ * Text Alignment Options
+ */
+.qY4M3weL.qY4M3weL {
+  text-align: left; }
+
+._1D4q3fy_._1D4q3fy_ {
+  text-align: center; }
+
+._2D7__MLB._2D7__MLB {
+  text-align: right; }
+
+._1FD7pOye._1FD7pOye {
+  text-align: justify; }
+
+/* See http://mrdanadams.com/2012/pixel-ems-css-conversion-sass-mixin/ */
+/* Convert PX units to EMs.
+Ex: margin-right: prem(16);
+*/
+/* Rounds EMs to the nearest .1 to be nicer. Useful for when browsers choke
+   on bizarre em values
+ */
+/* Used to convert PX to EMs for multiple properties or values or both.
+$base is an optional measurement that allows making measurements relative to the parent font size rather than the current. Also accepts a list of lists (instead a list of values) for properties that accept multiple lists of values. Only numbers of converted; everything else is passed through.
+
+Examples:
+
+@include scale(line-height, 30)
+@include scale(line-height, 30, 16)
+@include scale(width height, 125);
+@include scale(padding, 0 25, 16);
+@include scale(text-shadow, (#0d6e28 1 1) (#777 0 0 2), 16);
+@include scale(box-shadow, (inset 0 0 0 1 #2a9022) (inset 0 0 3 #459966), 16);
+*/
+/*
+ * NOTE: Don't specify CSS Custom Properties (Variables) here as they will be
+ * duplicated on import of this file. Please use variables-custom-properties.scss for new variables
+ */
+/**
+ * Official BitMEX Color Palette
+ * @see https://docs.google.com/document/d/14kCw1-SS705qNBGvbwh23RedY1lAPoO7VVFmrcOAdP8/edit
+*/
+
+/**
+* Use em or rem font-size in Bootstrap 3
+* Based on Less version here: https://gist.github.com/jasny/9731895
+* Values pulled from _variables.scss
+*/
+._2oKepDCT {
+  background: none;
+  border-radius: 0.30769rem;
+  border: solid 1px var(--grey60);
+  color: var(--textSecondary);
+  display: block;
+  height: 3.69231rem;
+  line-height: inherit;
+  margin-bottom: var(--spacing1);
+  padding-left: var(--spacing1);
+  width: 100%; }
+  ._2oKepDCT:hover {
+    background: var(--grey90); }
+  ._2oKepDCT:focus {
+    background: none;
+    outline: none;
+    border: solid 1px var(--info60); }
+
+.BEiv6A8p {
+  -webkit-box-align: center;
+          align-items: center;
+  color: var(--textPrimary);
+  display: -webkit-box;
+  display: flex;
+  padding-left: 0; }
+  .BEiv6A8p input::-webkit-input-placeholder {
+    color: var(--grey40); }
+  .BEiv6A8p input::-moz-placeholder {
+    color: var(--grey40); }
+  .BEiv6A8p input::-ms-input-placeholder {
+    color: var(--grey40); }
+  .BEiv6A8p input::placeholder {
+    color: var(--grey40); }
+  .BEiv6A8p:focus-within {
+    background: none; }
+  .BEiv6A8p ._3UsQNxhJ + label {
+    margin-left: 3.69231rem; }
+
+.BEiv6A8p:focus-within {
+  border: solid 1px var(--info60); }
+  .BEiv6A8p:focus-within label {
+    opacity: 1;
+    -webkit-transform: translate(0, calc(-1 * 1.53846rem));
+            transform: translate(0, calc(-1 * 1.53846rem));
+    background-color: var(--black); }
+  .BEiv6A8p:focus-within ._3UsQNxhJ {
+    border-right: solid 1px var(--info60); }
+
+._3SpxUfP4 label {
+  -webkit-transform: translate(0, calc(-1 * 1.53846rem));
+          transform: translate(0, calc(-1 * 1.53846rem));
+  background-color: var(--black); }
+
+._3L1Tjjf- {
+  border: solid 1px var(--failure60); }
+  ._3L1Tjjf-:focus {
+    border: solid 1px var(--failure60); }
+
+.BEiv6A8p._19bU50lG {
+  border: solid 1px var(--failure60); }
+  .BEiv6A8p._19bU50lG ._3UsQNxhJ {
+    border-right: solid 1px var(--failure60); }
+  .BEiv6A8p._19bU50lG i {
+    color: var(--failure60); }
+  .BEiv6A8p._19bU50lG .DptLqMj4:focus {
+    outline: initial; }
+
+.DptLqMj4 {
+  background: none;
+  border: none;
+  border-radius: 0.30769rem;
+  height: 100%;
+  padding: 0;
+  padding-left: var(--spacing1);
+  width: 100%; }
+  .DptLqMj4:disabled {
+    background-color: var(--grey95);
+    color: var(--grey40); }
+  .DptLqMj4:focus {
+    outline: none; }
+
+.EU6d2XUF {
+  margin-left: calc(-1 * 3.69231rem);
+  padding-left: calc(var(--spacing1) + 3.69231rem); }
+
+._3UsQNxhJ {
+  -webkit-box-align: center;
+          align-items: center;
+  background: var(--wellNeutral);
+  border-bottom-left-radius: 0.30769rem;
+  border-right: solid 1px var(--grey60);
+  border-top-left-radius: 0.30769rem;
+  display: -webkit-box;
+  display: flex;
+  height: 100%;
+  -webkit-box-pack: center;
+          justify-content: center;
+  width: 3.69231rem;
+  z-index: 1; }
+  ._3UsQNxhJ i {
+    font-size: 18px; }
+
+._1er4lJBc {
+  width: 100%; }
+
+.LkBvlOxg {
+  max-width: 382px; }
+
+.BEiv6A8p input:-webkit-autofill,
+.BEiv6A8p input:-webkit-autofill:hover,
+.BEiv6A8p input:-webkit-autofill:focus,
+.BEiv6A8p textarea:-webkit-autofill,
+.BEiv6A8p textarea:-webkit-autofill:hover,
+.BEiv6A8p textarea:-webkit-autofill:focus,
+.BEiv6A8p select:-webkit-autofill,
+.BEiv6A8p select:-webkit-autofill:hover,
+.BEiv6A8p select:-webkit-autofill:focus {
+  -webkit-text-fill-color: var(--textSecondary) !important;
+  -webkit-box-shadow: 0 0 0px 30px var(--backgroundMain) inset !important;
+  box-shadow: 0 0 0px 30px var(--backgroundMain) inset !important;
+  border-radius: 0.30769rem;
+  height: 3.46154rem; }
+
+/* See http://mrdanadams.com/2012/pixel-ems-css-conversion-sass-mixin/ */
+/* Convert PX units to EMs.
+Ex: margin-right: prem(16);
+*/
+/* Rounds EMs to the nearest .1 to be nicer. Useful for when browsers choke
+   on bizarre em values
+ */
+/* Used to convert PX to EMs for multiple properties or values or both.
+$base is an optional measurement that allows making measurements relative to the parent font size rather than the current. Also accepts a list of lists (instead a list of values) for properties that accept multiple lists of values. Only numbers of converted; everything else is passed through.
+
+Examples:
+
+@include scale(line-height, 30)
+@include scale(line-height, 30, 16)
+@include scale(width height, 125);
+@include scale(padding, 0 25, 16);
+@include scale(text-shadow, (#0d6e28 1 1) (#777 0 0 2), 16);
+@include scale(box-shadow, (inset 0 0 0 1 #2a9022) (inset 0 0 3 #459966), 16);
+*/
+/*
+ * NOTE: Don't specify CSS Custom Properties (Variables) here as they will be
+ * duplicated on import of this file. Please use variables-custom-properties.scss for new variables
+ */
+/**
+ * Official BitMEX Color Palette
+ * @see https://docs.google.com/document/d/14kCw1-SS705qNBGvbwh23RedY1lAPoO7VVFmrcOAdP8/edit
+*/
+
+/**
+* Use em or rem font-size in Bootstrap 3
+* Based on Less version here: https://gist.github.com/jasny/9731895
+* Values pulled from _variables.scss
+*/
+.w0nE5QpD::-webkit-input-placeholder {
+  color: var(--grey40); }
+.w0nE5QpD::-moz-placeholder {
+  color: var(--grey40); }
+.w0nE5QpD::-ms-input-placeholder {
+  color: var(--grey40); }
+.w0nE5QpD::placeholder {
+  color: var(--grey40); }
+
+/* See http://mrdanadams.com/2012/pixel-ems-css-conversion-sass-mixin/ */
+/* Convert PX units to EMs.
+Ex: margin-right: prem(16);
+*/
+/* Rounds EMs to the nearest .1 to be nicer. Useful for when browsers choke
+   on bizarre em values
+ */
+/* Used to convert PX to EMs for multiple properties or values or both.
+$base is an optional measurement that allows making measurements relative to the parent font size rather than the current. Also accepts a list of lists (instead a list of values) for properties that accept multiple lists of values. Only numbers of converted; everything else is passed through.
+
+Examples:
+
+@include scale(line-height, 30)
+@include scale(line-height, 30, 16)
+@include scale(width height, 125);
+@include scale(padding, 0 25, 16);
+@include scale(text-shadow, (#0d6e28 1 1) (#777 0 0 2), 16);
+@include scale(box-shadow, (inset 0 0 0 1 #2a9022) (inset 0 0 3 #459966), 16);
+*/
+/*
+ * NOTE: Don't specify CSS Custom Properties (Variables) here as they will be
+ * duplicated on import of this file. Please use variables-custom-properties.scss for new variables
+ */
+/**
+ * Official BitMEX Color Palette
+ * @see https://docs.google.com/document/d/14kCw1-SS705qNBGvbwh23RedY1lAPoO7VVFmrcOAdP8/edit
+*/
+
+/**
+* Use em or rem font-size in Bootstrap 3
+* Based on Less version here: https://gist.github.com/jasny/9731895
+* Values pulled from _variables.scss
+*/
+.Ww2iuDfl {
+  -webkit-box-align: center;
+          align-items: center;
+  border: 2px solid var(--grey60);
+  border-radius: 4px;
+  cursor: pointer;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: justify;
+          justify-content: space-between; }
+  .Ww2iuDfl:hover {
+    background-color: var(--grey90); }
+  .Ww2iuDfl._1-MNW3qN, .Ww2iuDfl:focus {
+    border-color: var(--blue50); }
+  .Ww2iuDfl:active {
+    background-color: var(--blue90);
+    border: solid 2px transparent; }
+  .Ww2iuDfl ._2H7GVkrz {
+    color: var(--grey20);
+    font-size: 1.38462rem;
+    margin-right: var(--spacing1);
+    vertical-align: middle; }
+
+._2yxSgafS {
+  background-color: var(--backgroundMain);
+  border-radius: 4px;
+  cursor: pointer;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
+  margin-top: 0.30769rem;
+  position: absolute;
+  z-index: 3; }
+
+._23wFfNJ9 {
+  -webkit-box-align: center;
+          align-items: center;
+  background-color: var(--grey90);
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: justify;
+          justify-content: space-between; }
+  ._23wFfNJ9:first-of-type {
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px; }
+  ._23wFfNJ9:last-of-type {
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px; }
+  ._23wFfNJ9:hover, ._23wFfNJ9:focus {
+    background-color: var(--grey80);
+    color: var(--blue40);
+    outline: none; }
+  ._23wFfNJ9:active {
+    background-color: var(--blue90); }
+  ._23wFfNJ9 .CJTK8gWk {
+    visibility: visible; }
+
+._1cUw0TAh {
+  background-color: var(--blue90); }
+
+/* See http://mrdanadams.com/2012/pixel-ems-css-conversion-sass-mixin/ */
+/* Convert PX units to EMs.
+Ex: margin-right: prem(16);
+*/
+/* Rounds EMs to the nearest .1 to be nicer. Useful for when browsers choke
+   on bizarre em values
+ */
+/* Used to convert PX to EMs for multiple properties or values or both.
+$base is an optional measurement that allows making measurements relative to the parent font size rather than the current. Also accepts a list of lists (instead a list of values) for properties that accept multiple lists of values. Only numbers of converted; everything else is passed through.
+
+Examples:
+
+@include scale(line-height, 30)
+@include scale(line-height, 30, 16)
+@include scale(width height, 125);
+@include scale(padding, 0 25, 16);
+@include scale(text-shadow, (#0d6e28 1 1) (#777 0 0 2), 16);
+@include scale(box-shadow, (inset 0 0 0 1 #2a9022) (inset 0 0 3 #459966), 16);
+*/
+/*
+ * NOTE: Don't specify CSS Custom Properties (Variables) here as they will be
+ * duplicated on import of this file. Please use variables-custom-properties.scss for new variables
+ */
+/**
+ * Official BitMEX Color Palette
+ * @see https://docs.google.com/document/d/14kCw1-SS705qNBGvbwh23RedY1lAPoO7VVFmrcOAdP8/edit
+*/
+
+/**
+* Use em or rem font-size in Bootstrap 3
+* Based on Less version here: https://gist.github.com/jasny/9731895
+* Values pulled from _variables.scss
+*/
+._1u_jehvX {
+  display: -webkit-inline-box;
+  display: inline-flex; }
+  ._1u_jehvX input[type='file'] {
+    height: 1px;
+    width: 1px;
+    position: absolute;
+    border: 0; }
+    ._1u_jehvX input[type='file']:active, ._1u_jehvX input[type='file']:focus {
+      border: none;
+      outline: none; }
+
+._3EMfMKHF {
+  color: var(--grey50);
+  background: var(--grey95); }
+  ._3EMfMKHF svg {
+    fill: var(--grey50); }
+  ._3EMfMKHF:hover {
+    background: var(--grey95); }
+  ._3EMfMKHF:active {
+    color: var(--grey50); }
+    ._3EMfMKHF:active svg {
+      fill: var(--grey50); }
+
+/* See http://mrdanadams.com/2012/pixel-ems-css-conversion-sass-mixin/ */
+/* Convert PX units to EMs.
+Ex: margin-right: prem(16);
+*/
+/* Rounds EMs to the nearest .1 to be nicer. Useful for when browsers choke
+   on bizarre em values
+ */
+/* Used to convert PX to EMs for multiple properties or values or both.
+$base is an optional measurement that allows making measurements relative to the parent font size rather than the current. Also accepts a list of lists (instead a list of values) for properties that accept multiple lists of values. Only numbers of converted; everything else is passed through.
+
+Examples:
+
+@include scale(line-height, 30)
+@include scale(line-height, 30, 16)
+@include scale(width height, 125);
+@include scale(padding, 0 25, 16);
+@include scale(text-shadow, (#0d6e28 1 1) (#777 0 0 2), 16);
+@include scale(box-shadow, (inset 0 0 0 1 #2a9022) (inset 0 0 3 #459966), 16);
+*/
+/*
+ * NOTE: Don't specify CSS Custom Properties (Variables) here as they will be
+ * duplicated on import of this file. Please use variables-custom-properties.scss for new variables
+ */
+/**
+ * Official BitMEX Color Palette
+ * @see https://docs.google.com/document/d/14kCw1-SS705qNBGvbwh23RedY1lAPoO7VVFmrcOAdP8/edit
+*/
+
+/**
+* Use em or rem font-size in Bootstrap 3
+* Based on Less version here: https://gist.github.com/jasny/9731895
+* Values pulled from _variables.scss
+*/
+._3f5km9io {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: center;
+          align-items: center; }
+  ._3f5km9io svg {
+    fill: var(--failure40);
+    margin-right: 2px;
+    width: 0.76923rem;
+    height: 0.76923rem; }
+
+._22nK4vTJ {
+  display: inline-block;
+  margin-top: var(--spacing1);
+  margin-bottom: var(--spacingHalf); }
+
+._2V3VaRmV input[type='radio'] {
+  opacity: 0; }
+
+._31WlPBqa {
+  cursor: pointer;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+          flex-direction: row;
+  margin: var(--spacing1) 0; }
+  ._31WlPBqa input + span > label {
+    display: inline-block;
+    margin-left: 24px;
+    position: relative; }
+    ._31WlPBqa input + span > label::before {
+      content: '';
+      background: transparent;
+      border-radius: 50%;
+      box-shadow: inset 0px 0px 0px 1px var(--grey60);
+      display: inline-block;
+      height: 24px;
+      left: -36px;
+      position: absolute;
+      width: 24px; }
+    ._31WlPBqa input + span > label:hover::before {
+      background-color: var(--grey80);
+      box-shadow: inset 0px 0px 0px 1px var(--grey60), 0px 0px 0px 1px var(--grey80); }
+    ._31WlPBqa input + span > label:focus::before {
+      box-shadow: inset 0px 0px 0px 1px var(--grey60);
+      height: 24px;
+      width: 24px; }
+    ._31WlPBqa input + span > label:active::before {
+      background-color: var(--info90);
+      border: 1px solid var(--info90); }
+  ._31WlPBqa input:checked + span > label::after {
+    background: var(--info50);
+    border-radius: 50%;
+    content: '';
+    display: inline-block;
+    height: 16px;
+    left: -32px;
+    position: absolute;
+    top: 4px;
+    width: 16px; }
+  ._31WlPBqa input:checked + span > label::before {
+    background: transparent;
+    border: none;
+    box-shadow: inset 0px 0px 0px 1px var(--info50); }
+  ._31WlPBqa input:checked:focus + span > label::before {
+    box-shadow: inset 0px 0px 0px 1px var(--info50), 0px 0px 2px 2px var(--info70); }
+
+/* See http://mrdanadams.com/2012/pixel-ems-css-conversion-sass-mixin/ */
+/* Convert PX units to EMs.
+Ex: margin-right: prem(16);
+*/
+/* Rounds EMs to the nearest .1 to be nicer. Useful for when browsers choke
+   on bizarre em values
+ */
+/* Used to convert PX to EMs for multiple properties or values or both.
+$base is an optional measurement that allows making measurements relative to the parent font size rather than the current. Also accepts a list of lists (instead a list of values) for properties that accept multiple lists of values. Only numbers of converted; everything else is passed through.
+
+Examples:
+
+@include scale(line-height, 30)
+@include scale(line-height, 30, 16)
+@include scale(width height, 125);
+@include scale(padding, 0 25, 16);
+@include scale(text-shadow, (#0d6e28 1 1) (#777 0 0 2), 16);
+@include scale(box-shadow, (inset 0 0 0 1 #2a9022) (inset 0 0 3 #459966), 16);
+*/
+/*
+ * NOTE: Don't specify CSS Custom Properties (Variables) here as they will be
+ * duplicated on import of this file. Please use variables-custom-properties.scss for new variables
+ */
+/**
+ * Official BitMEX Color Palette
+ * @see https://docs.google.com/document/d/14kCw1-SS705qNBGvbwh23RedY1lAPoO7VVFmrcOAdP8/edit
+*/
+
+/**
+* Use em or rem font-size in Bootstrap 3
+* Based on Less version here: https://gist.github.com/jasny/9731895
+* Values pulled from _variables.scss
+*/
+._1ATmzcHH {
+  position: relative; }
+
+._2U78CEdV {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none; }
+  ._2U78CEdV:disabled {
+    background: var(--grey70);
+    color: var(--grey50); }
+
+.xU7xLoKs {
+  pointer-events: none;
+  position: absolute;
+  right: var(--spacing1);
+  top: 1.07692rem; }
+
+._2U78CEdV:disabled + .xU7xLoKs {
+  display: none; }
+
+/* See http://mrdanadams.com/2012/pixel-ems-css-conversion-sass-mixin/ */
+/* Convert PX units to EMs.
+Ex: margin-right: prem(16);
+*/
+/* Rounds EMs to the nearest .1 to be nicer. Useful for when browsers choke
+   on bizarre em values
+ */
+/* Used to convert PX to EMs for multiple properties or values or both.
+$base is an optional measurement that allows making measurements relative to the parent font size rather than the current. Also accepts a list of lists (instead a list of values) for properties that accept multiple lists of values. Only numbers of converted; everything else is passed through.
+
+Examples:
+
+@include scale(line-height, 30)
+@include scale(line-height, 30, 16)
+@include scale(width height, 125);
+@include scale(padding, 0 25, 16);
+@include scale(text-shadow, (#0d6e28 1 1) (#777 0 0 2), 16);
+@include scale(box-shadow, (inset 0 0 0 1 #2a9022) (inset 0 0 3 #459966), 16);
+*/
+/*
+ * NOTE: Don't specify CSS Custom Properties (Variables) here as they will be
+ * duplicated on import of this file. Please use variables-custom-properties.scss for new variables
+ */
+/**
+ * Official BitMEX Color Palette
+ * @see https://docs.google.com/document/d/14kCw1-SS705qNBGvbwh23RedY1lAPoO7VVFmrcOAdP8/edit
+*/
+
+/**
+* Use em or rem font-size in Bootstrap 3
+* Based on Less version here: https://gist.github.com/jasny/9731895
+* Values pulled from _variables.scss
+*/
+.fYnGNJDe {
+  height: 6.46154rem;
+  min-height: 5.53846rem;
+  padding: var(--spacing1); }
+  .fYnGNJDe::-webkit-input-placeholder {
+    color: var(--grey40); }
+  .fYnGNJDe::-moz-placeholder {
+    color: var(--grey40); }
+  .fYnGNJDe::-ms-input-placeholder {
+    color: var(--grey40); }
+  .fYnGNJDe::placeholder {
+    color: var(--grey40); }
+
+._1N7-35Wo {
+  height: 9.07692rem; }
+
+._1LAy95SN {
+  padding-bottom: var(--spacingHalf); }
+
+.qmrs3phv {
+  padding-bottom: var(--spacing1); }
+
+._2iT--DFn {
+  padding-bottom: var(--spacing2); }
+
+._2mcsmThu {
+  padding-bottom: var(--spacing3); }
+
+._3wsGKU2C {
+  padding-bottom: var(--spacing4); }
+
+._3re6K4B2 {
+  padding-bottom: var(--spacing5); }
+
+._2J_U73KB {
+  padding-bottom: var(--spacing6); }
+
+._1jOmmOrt {
+  padding-bottom: var(--spacing7); }
+
+._6rcN5xf {
+  padding-bottom: var(--spacing8); }
+
+._3AaWWYoO {
+  padding-bottom: var(--spacing9); }
+
+._2V9iuaTd {
+  padding-bottom: var(--spacing10); }
+
+/* See http://mrdanadams.com/2012/pixel-ems-css-conversion-sass-mixin/ */
+/* Convert PX units to EMs.
+Ex: margin-right: prem(16);
+*/
+/* Rounds EMs to the nearest .1 to be nicer. Useful for when browsers choke
+   on bizarre em values
+ */
+/* Used to convert PX to EMs for multiple properties or values or both.
+$base is an optional measurement that allows making measurements relative to the parent font size rather than the current. Also accepts a list of lists (instead a list of values) for properties that accept multiple lists of values. Only numbers of converted; everything else is passed through.
+
+Examples:
+
+@include scale(line-height, 30)
+@include scale(line-height, 30, 16)
+@include scale(width height, 125);
+@include scale(padding, 0 25, 16);
+@include scale(text-shadow, (#0d6e28 1 1) (#777 0 0 2), 16);
+@include scale(box-shadow, (inset 0 0 0 1 #2a9022) (inset 0 0 3 #459966), 16);
+*/
+/*
+ * NOTE: Don't specify CSS Custom Properties (Variables) here as they will be
+ * duplicated on import of this file. Please use variables-custom-properties.scss for new variables
+ */
+/**
+ * Official BitMEX Color Palette
+ * @see https://docs.google.com/document/d/14kCw1-SS705qNBGvbwh23RedY1lAPoO7VVFmrcOAdP8/edit
+*/
+
+/**
+* Use em or rem font-size in Bootstrap 3
+* Based on Less version here: https://gist.github.com/jasny/9731895
+* Values pulled from _variables.scss
+*/
+._316gCkrQ {
+  position: relative;
+  color: var(--textPrimary);
+  padding: 1.84615rem 1.84615rem 1.84615rem 3.07692rem; }
+  ._316gCkrQ h4 {
+    color: var(--textPrimary);
+    margin-top: 0;
+    margin-bottom: 6px;
+    text-align: left; }
+  ._316gCkrQ i {
+    position: absolute;
+    color: var(--textPrimary);
+    left: 1.23077rem;
+    top: 2.46154rem; }
+  ._316gCkrQ div {
+    margin-top: 3px; }
+
+.MElyMTe9 {
+  background: var(--success95);
+  border-top: solid 0.30769rem var(--success60); }
+
+._3Otfjw_K {
+  background: var(--failure95);
+  border-top: solid 0.30769rem var(--failure60); }
+
+._30ZPA64D {
+  background: var(--warning95);
+  border-top: solid 0.30769rem var(--warning60); }
+
+._2jjxOEQt {
+  background: var(--neutral95);
+  border-top: solid 0.30769rem var(--neutral60); }
+
+._1_5WXE2y {
+  background: var(--info95);
+  border-top: solid 0.30769rem var(--info60); }
+
+/* See http://mrdanadams.com/2012/pixel-ems-css-conversion-sass-mixin/ */
+/* Convert PX units to EMs.
+Ex: margin-right: prem(16);
+*/
+/* Rounds EMs to the nearest .1 to be nicer. Useful for when browsers choke
+   on bizarre em values
+ */
+/* Used to convert PX to EMs for multiple properties or values or both.
+$base is an optional measurement that allows making measurements relative to the parent font size rather than the current. Also accepts a list of lists (instead a list of values) for properties that accept multiple lists of values. Only numbers of converted; everything else is passed through.
+
+Examples:
+
+@include scale(line-height, 30)
+@include scale(line-height, 30, 16)
+@include scale(width height, 125);
+@include scale(padding, 0 25, 16);
+@include scale(text-shadow, (#0d6e28 1 1) (#777 0 0 2), 16);
+@include scale(box-shadow, (inset 0 0 0 1 #2a9022) (inset 0 0 3 #459966), 16);
+*/
+/*
+ * NOTE: Don't specify CSS Custom Properties (Variables) here as they will be
+ * duplicated on import of this file. Please use variables-custom-properties.scss for new variables
+ */
+/**
+ * Official BitMEX Color Palette
+ * @see https://docs.google.com/document/d/14kCw1-SS705qNBGvbwh23RedY1lAPoO7VVFmrcOAdP8/edit
+*/
+
+/**
+* Use em or rem font-size in Bootstrap 3
+* Based on Less version here: https://gist.github.com/jasny/9731895
+* Values pulled from _variables.scss
+*/
+._3ohVAaIt {
+  padding: var(--spacing3) 0; }
+
+.Moh_ysix {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: end;
+          align-items: flex-end;
+  padding-bottom: var(--spacing2);
+  max-width: 768px; }
+
+._2wtA6Qvz {
+  display: -webkit-box;
+  display: flex; }
+  ._2wtA6Qvz > * + * {
+    margin-left: var(--spacing2); }
+
+@media screen and (max-width: 768px) {
+  ._1UtR5OCk {
+    display: none; } }
+
+/* See http://mrdanadams.com/2012/pixel-ems-css-conversion-sass-mixin/ */
+/* Convert PX units to EMs.
+Ex: margin-right: prem(16);
+*/
+/* Rounds EMs to the nearest .1 to be nicer. Useful for when browsers choke
+   on bizarre em values
+ */
+/* Used to convert PX to EMs for multiple properties or values or both.
+$base is an optional measurement that allows making measurements relative to the parent font size rather than the current. Also accepts a list of lists (instead a list of values) for properties that accept multiple lists of values. Only numbers of converted; everything else is passed through.
+
+Examples:
+
+@include scale(line-height, 30)
+@include scale(line-height, 30, 16)
+@include scale(width height, 125);
+@include scale(padding, 0 25, 16);
+@include scale(text-shadow, (#0d6e28 1 1) (#777 0 0 2), 16);
+@include scale(box-shadow, (inset 0 0 0 1 #2a9022) (inset 0 0 3 #459966), 16);
+*/
+/*
+ * NOTE: Don't specify CSS Custom Properties (Variables) here as they will be
+ * duplicated on import of this file. Please use variables-custom-properties.scss for new variables
+ */
+/**
+ * Official BitMEX Color Palette
+ * @see https://docs.google.com/document/d/14kCw1-SS705qNBGvbwh23RedY1lAPoO7VVFmrcOAdP8/edit
+*/
+
+/**
+* Use em or rem font-size in Bootstrap 3
+* Based on Less version here: https://gist.github.com/jasny/9731895
+* Values pulled from _variables.scss
+*/
+._3uM9Clx7 {
+  background-color: var(--grey98);
+  border: solid 1px var(--grey60);
+  border-radius: 0.30769rem; }
+  ._3uM9Clx7 header {
+    padding: var(--spacing2); }
+  ._3uM9Clx7 ._1IeQ8cfI {
+    padding: 0 var(--spacing2) var(--spacing3); }
+  ._3uM9Clx7 ._1rS60v0e > * + * {
+    margin-top: 0.61538rem; }
+  ._3uM9Clx7 ._1rS60v0e > * + h1,
+  ._3uM9Clx7 ._1rS60v0e > * + h2,
+  ._3uM9Clx7 ._1rS60v0e > * + h3,
+  ._3uM9Clx7 ._1rS60v0e > * + h4,
+  ._3uM9Clx7 ._1rS60v0e > * + h5,
+  ._3uM9Clx7 ._1rS60v0e > * + h6 {
+    margin-top: 1.23077rem; }
+  ._3uM9Clx7 ._1rS60v0e > * + button {
+    margin-bottom: 0.61538rem;
+    margin-top: 1.84615rem; }
+  ._3uM9Clx7 ._1rS60v0e > * + p {
+    margin-bottom: 0; }
+  ._3uM9Clx7 ._1rS60v0e > * + input {
+    margin: none; }
+
+._3XjmDwiO ._1IeQ8cfI {
+  padding-top: var(--spacing2); }
+
+._2ZoVqMak {
+  overflow-y: auto; }
+
+._1kczRog9 {
+  max-width: 100%;
+  height: 100%; }
+
+._2Txa8mOU {
+  max-width: 720px; }
+
+._15pyQ6yE {
+  max-width: 468px; }
+
+/* See http://mrdanadams.com/2012/pixel-ems-css-conversion-sass-mixin/ */
+/* Convert PX units to EMs.
+Ex: margin-right: prem(16);
+*/
+/* Rounds EMs to the nearest .1 to be nicer. Useful for when browsers choke
+   on bizarre em values
+ */
+/* Used to convert PX to EMs for multiple properties or values or both.
+$base is an optional measurement that allows making measurements relative to the parent font size rather than the current. Also accepts a list of lists (instead a list of values) for properties that accept multiple lists of values. Only numbers of converted; everything else is passed through.
+
+Examples:
+
+@include scale(line-height, 30)
+@include scale(line-height, 30, 16)
+@include scale(width height, 125);
+@include scale(padding, 0 25, 16);
+@include scale(text-shadow, (#0d6e28 1 1) (#777 0 0 2), 16);
+@include scale(box-shadow, (inset 0 0 0 1 #2a9022) (inset 0 0 3 #459966), 16);
+*/
+/*
+ * NOTE: Don't specify CSS Custom Properties (Variables) here as they will be
+ * duplicated on import of this file. Please use variables-custom-properties.scss for new variables
+ */
+/**
+ * Official BitMEX Color Palette
+ * @see https://docs.google.com/document/d/14kCw1-SS705qNBGvbwh23RedY1lAPoO7VVFmrcOAdP8/edit
+*/
+
+/**
+* Use em or rem font-size in Bootstrap 3
+* Based on Less version here: https://gist.github.com/jasny/9731895
+* Values pulled from _variables.scss
+*/
+._2fmbCqk6 {
+  max-height: 55vh;
+  min-height: 500px; }
+  ._2fmbCqk6 > * + * {
+    margin-top: 1.84615rem; }
+
+._2-o4flaq {
+  margin-bottom: 2.46154rem; }
+
+.rsoYhbWn {
+  padding-bottom: 1.23077rem;
+  border-bottom: solid 1px var(--borderMain); }
+
+@media screen and (max-width: 768px) {
+  ._2fmbCqk6 {
+    max-height: none; }
+  ._2-o4flaq {
+    margin-bottom: 0; } }
+
+/* See http://mrdanadams.com/2012/pixel-ems-css-conversion-sass-mixin/ */
+/* Convert PX units to EMs.
+Ex: margin-right: prem(16);
+*/
+/* Rounds EMs to the nearest .1 to be nicer. Useful for when browsers choke
+   on bizarre em values
+ */
+/* Used to convert PX to EMs for multiple properties or values or both.
+$base is an optional measurement that allows making measurements relative to the parent font size rather than the current. Also accepts a list of lists (instead a list of values) for properties that accept multiple lists of values. Only numbers of converted; everything else is passed through.
+
+Examples:
+
+@include scale(line-height, 30)
+@include scale(line-height, 30, 16)
+@include scale(width height, 125);
+@include scale(padding, 0 25, 16);
+@include scale(text-shadow, (#0d6e28 1 1) (#777 0 0 2), 16);
+@include scale(box-shadow, (inset 0 0 0 1 #2a9022) (inset 0 0 3 #459966), 16);
+*/
+/*
+ * NOTE: Don't specify CSS Custom Properties (Variables) here as they will be
+ * duplicated on import of this file. Please use variables-custom-properties.scss for new variables
+ */
+/**
+ * Official BitMEX Color Palette
+ * @see https://docs.google.com/document/d/14kCw1-SS705qNBGvbwh23RedY1lAPoO7VVFmrcOAdP8/edit
+*/
+
+/**
+* Use em or rem font-size in Bootstrap 3
+* Based on Less version here: https://gist.github.com/jasny/9731895
+* Values pulled from _variables.scss
+*/
+._3jUmEQ-I {
+  padding-top: 1.23077rem; }
+  ._3jUmEQ-I > a,
+  ._3jUmEQ-I > button {
+    display: inline-block;
+    margin-top: 0.92308rem;
+    margin-right: 1.23077rem; }
+
+/* See http://mrdanadams.com/2012/pixel-ems-css-conversion-sass-mixin/ */
+/* Convert PX units to EMs.
+Ex: margin-right: prem(16);
+*/
+/* Rounds EMs to the nearest .1 to be nicer. Useful for when browsers choke
+   on bizarre em values
+ */
+/* Used to convert PX to EMs for multiple properties or values or both.
+$base is an optional measurement that allows making measurements relative to the parent font size rather than the current. Also accepts a list of lists (instead a list of values) for properties that accept multiple lists of values. Only numbers of converted; everything else is passed through.
+
+Examples:
+
+@include scale(line-height, 30)
+@include scale(line-height, 30, 16)
+@include scale(width height, 125);
+@include scale(padding, 0 25, 16);
+@include scale(text-shadow, (#0d6e28 1 1) (#777 0 0 2), 16);
+@include scale(box-shadow, (inset 0 0 0 1 #2a9022) (inset 0 0 3 #459966), 16);
+*/
+/*
+ * NOTE: Don't specify CSS Custom Properties (Variables) here as they will be
+ * duplicated on import of this file. Please use variables-custom-properties.scss for new variables
+ */
+/**
+ * Official BitMEX Color Palette
+ * @see https://docs.google.com/document/d/14kCw1-SS705qNBGvbwh23RedY1lAPoO7VVFmrcOAdP8/edit
+*/
+
+/**
+* Use em or rem font-size in Bootstrap 3
+* Based on Less version here: https://gist.github.com/jasny/9731895
+* Values pulled from _variables.scss
+*/
+._1kRUCddg {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
+  width: 100%; }
+  ._1kRUCddg > * {
+    text-align: left; }
+
+._1q8nWffv button {
+  margin: 0; }
+
+._1q8nWffv ._25mvXUi8 {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: justify;
+          justify-content: space-between;
+  max-width: 46.07692rem;
+  flex-wrap: inherit; }
+  ._1q8nWffv ._25mvXUi8 ._3YDH-7aK,
+  ._1q8nWffv ._25mvXUi8 .JecaScmf {
+    -webkit-box-align: center;
+            align-items: center;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-flex: 1;
+            flex-grow: 1;
+    margin-right: var(--spacing1);
+    overflow: hidden;
+    padding: 0 var(--spacing1);
+    text-overflow: ellipsis;
+    white-space: nowrap; }
+  ._1q8nWffv ._25mvXUi8 ._3YDH-7aK {
+    border: 1px solid var(--success60); }
+  ._1q8nWffv ._25mvXUi8 .JecaScmf {
+    border: 1px solid var(--failure60); }
+  ._1q8nWffv ._25mvXUi8 ._3YDH-7aK + div,
+  ._1q8nWffv ._25mvXUi8 ._3YDH-7aK + button,
+  ._1q8nWffv ._25mvXUi8 .JecaScmf + div,
+  ._1q8nWffv ._25mvXUi8 .JecaScmf + button {
+    margin-top: inherit; }
+    @media screen and (max-width: 480px) {
+      ._1q8nWffv ._25mvXUi8 ._3YDH-7aK + div,
+      ._1q8nWffv ._25mvXUi8 ._3YDH-7aK + button,
+      ._1q8nWffv ._25mvXUi8 .JecaScmf + div,
+      ._1q8nWffv ._25mvXUi8 .JecaScmf + button {
+        /* This value matches the Content Box styles for button */
+        margin-top: 1.84615rem; } }
+  @media screen and (max-width: 480px) {
+    ._1q8nWffv ._25mvXUi8 {
+      /* Stack the file box and button on mobile */
+      flex-wrap: wrap; } }
+
+._3o3mvuTv,
+._3azZxNiZ {
+  -webkit-box-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: flex;
+  margin-top: var(--spacing1); }
+  ._3o3mvuTv svg,
+  ._3azZxNiZ svg {
+    fill: var(--success50);
+    height: 1.23077rem;
+    margin-right: 0.76923rem;
+    width: 1.23077rem; }
+
+._3azZxNiZ svg {
+  fill: var(--failure50); }
+
+/* See http://mrdanadams.com/2012/pixel-ems-css-conversion-sass-mixin/ */
+/* Convert PX units to EMs.
+Ex: margin-right: prem(16);
+*/
+/* Rounds EMs to the nearest .1 to be nicer. Useful for when browsers choke
+   on bizarre em values
+ */
+/* Used to convert PX to EMs for multiple properties or values or both.
+$base is an optional measurement that allows making measurements relative to the parent font size rather than the current. Also accepts a list of lists (instead a list of values) for properties that accept multiple lists of values. Only numbers of converted; everything else is passed through.
+
+Examples:
+
+@include scale(line-height, 30)
+@include scale(line-height, 30, 16)
+@include scale(width height, 125);
+@include scale(padding, 0 25, 16);
+@include scale(text-shadow, (#0d6e28 1 1) (#777 0 0 2), 16);
+@include scale(box-shadow, (inset 0 0 0 1 #2a9022) (inset 0 0 3 #459966), 16);
+*/
+/*
+ * NOTE: Don't specify CSS Custom Properties (Variables) here as they will be
+ * duplicated on import of this file. Please use variables-custom-properties.scss for new variables
+ */
+/**
+ * Official BitMEX Color Palette
+ * @see https://docs.google.com/document/d/14kCw1-SS705qNBGvbwh23RedY1lAPoO7VVFmrcOAdP8/edit
+*/
+
+/**
+* Use em or rem font-size in Bootstrap 3
+* Based on Less version here: https://gist.github.com/jasny/9731895
+* Values pulled from _variables.scss
+*/
+.dark {
+  --textPrimary: var(--grey10);
+  --textSecondary: var(--grey30);
+  --textTertiary: var(--grey40);
+  --textLink: var(--blue40);
+  --textLinkHover: var(--blue50);
+  --backgroundMain: var(--black);
+  --backgroundSecondary: var(--grey95);
+  --borderMain: var(--grey60);
+  --wellSuccess: var(--success90);
+  --wellFailure: var(--failure90);
+  --wellInfo: var(--info90);
+  --wellWarning: var(--warning90);
+  --wellNeutral: var(--neutral90); }
+
+.light {
+  --backgroundMain: white;
+  --textPrimary: var(--grey90);
+  --textSecondary: var(--grey80);
+  --textTertiary: var(--grey70);
+  --textlink: var(--blue50);
+  --wellNeutral: var(--grey10); }
+
+body.frontdoor {
+  background-color: var(--backgroundMain); }
+
+._3W5JT9W5 {
+  /*
+   *  FTDR Default overrides
+   */
+  background: var(--backgroundMain);
+  color: var(--textSecondary);
+  font-family: "Open Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  margin: auto;
+  max-width: 1600px; }
+  ._3W5JT9W5 h1,
+  ._3W5JT9W5 h5 {
+    text-align: center; }
+  ._3W5JT9W5 h1,
+  ._3W5JT9W5 h2,
+  ._3W5JT9W5 h3,
+  ._3W5JT9W5 h4,
+  ._3W5JT9W5 h5,
+  ._3W5JT9W5 ._1ch5HsiX,
+  ._3W5JT9W5 .q4exfUSs {
+    color: var(--textPrimary);
+    margin: 0; }
+  ._3W5JT9W5 h3,
+  ._3W5JT9W5 p,
+  ._3W5JT9W5 strong {
+    font-size: 1rem;
+    line-height: 1.53846rem; }
+  ._3W5JT9W5 h1 {
+    font-size: 2.46154rem;
+    line-height: 3.07692rem;
+    font-weight: bold; }
+  ._3W5JT9W5 h2 {
+    font-size: 1.84615rem;
+    line-height: 2.46154rem;
+    font-weight: 600; }
+  ._3W5JT9W5 h3 {
+    color: var(--textSecondary);
+    font-size: 1.38462rem;
+    font-weight: normal;
+    line-height: 2.46154rem; }
+  ._3W5JT9W5 h4 {
+    color: var(--textSecondary);
+    font-size: 1.23077rem;
+    font-weight: normal;
+    line-height: 1.53846rem; }
+  ._3W5JT9W5 h5 {
+    font-size: 1.07692rem;
+    font-weight: 600;
+    line-height: 1.53846rem; }
+  ._3W5JT9W5 a {
+    color: var(--textLink);
+    text-decoration: none; }
+  ._3W5JT9W5 a:hover {
+    color: var(--textLinkHover);
+    text-decoration: underline; }
+  ._3W5JT9W5 input {
+    color: var(--textSecondary); }
+  ._3W5JT9W5 ._1ch5HsiX {
+    font-size: 3.07692rem;
+    font-weight: 800;
+    line-height: 3.07692rem; }
+  ._3W5JT9W5 .q4exfUSs {
+    font-size: 2.76923rem;
+    font-weight: 800;
+    line-height: 3.69231rem; }
+  ._3W5JT9W5 ._2UVZXb_J {
+    font-size: 0.92308rem;
+    line-height: 1.53846rem; }
+  ._3W5JT9W5 .p3m4VDt0 {
+    font-size: 0.76923rem;
+    line-height: 1.23077rem; }
+
+/*
+ *  FTDR Page Styling
+ */
+._2w5pkt58 {
+  display: grid;
+  grid-gap: 1px;
+  background: var(--borderMain);
+  grid-template-columns: repeat(6, 1fr);
+  width: 100%; }
+  ._2w5pkt58 > * {
+    background: var(--backgroundMain); }
+
+._1uzPgMcS {
+  grid-column: 1 / -1; }
+
+.iG_c24is {
+  grid-column: auto / span 3;
+  padding: 2.76923rem; }
+
+@media screen and (max-width: 1024px) {
+  .iG_c24is {
+    grid-column: auto / span 6; } }
+
+._1IAVkWjK {
+  -webkit-box-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
+  -webkit-box-pack: center;
+          justify-content: center; }
+
+._3GQyX64W {
+  height: 100%;
+  grid-column: 1 / -1; }
+
+@media screen and (min-width: 1600px) {
+  ._3W5JT9W5 {
+    border-left: solid 1px var(--borderMain);
+    border-right: solid 1px var(--borderMain); } }
+
+/* See http://mrdanadams.com/2012/pixel-ems-css-conversion-sass-mixin/ */
+/* Convert PX units to EMs.
+Ex: margin-right: prem(16);
+*/
+/* Rounds EMs to the nearest .1 to be nicer. Useful for when browsers choke
+   on bizarre em values
+ */
+/* Used to convert PX to EMs for multiple properties or values or both.
+$base is an optional measurement that allows making measurements relative to the parent font size rather than the current. Also accepts a list of lists (instead a list of values) for properties that accept multiple lists of values. Only numbers of converted; everything else is passed through.
+
+Examples:
+
+@include scale(line-height, 30)
+@include scale(line-height, 30, 16)
+@include scale(width height, 125);
+@include scale(padding, 0 25, 16);
+@include scale(text-shadow, (#0d6e28 1 1) (#777 0 0 2), 16);
+@include scale(box-shadow, (inset 0 0 0 1 #2a9022) (inset 0 0 3 #459966), 16);
+*/
+/*
+ * NOTE: Don't specify CSS Custom Properties (Variables) here as they will be
+ * duplicated on import of this file. Please use variables-custom-properties.scss for new variables
+ */
+/**
+ * Official BitMEX Color Palette
+ * @see https://docs.google.com/document/d/14kCw1-SS705qNBGvbwh23RedY1lAPoO7VVFmrcOAdP8/edit
+*/
+
+/**
+* Use em or rem font-size in Bootstrap 3
+* Based on Less version here: https://gist.github.com/jasny/9731895
+* Values pulled from _variables.scss
+*/
+.vcHKpoDz {
+  background: var(--borderMain);
+  color: var(--textTertiary);
+  display: grid;
+  grid-column: 1 / -1;
+  grid-gap: 1px;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  width: 100%; }
+  .vcHKpoDz > div {
+    background: var(--backgroundMain);
+    height: 100%;
+    padding: 20px; }
+  .vcHKpoDz ul {
+    list-style: none;
+    padding: 0; }
+  .vcHKpoDz a {
+    color: var(--textTertiary);
+    line-height: 1.53846rem;
+    cursor: pointer; }
+  .vcHKpoDz header {
+    color: var(--textSecondary);
+    margin-bottom: 0.92308rem; }
+
+._3AbY2pXd {
+  grid-column: span 2; }
+  ._3AbY2pXd > a > svg {
+    max-width: 6.15385rem;
+    margin-bottom: 1.23077rem; }
+
+@media screen and (max-width: 1268px) {
+  ._11ZbsYci {
+    grid-column: span 6; } }
+
+@media screen and (max-width: 1080px) {
+  .LaPJjUnT {
+    grid-column: span 2; }
+  ._11ZbsYci {
+    grid-column: span 3; } }
+
+@media screen and (max-width: 903px) {
+  .LaPJjUnT {
+    grid-column: span 1; }
+  ._11ZbsYci {
+    grid-column: span 2; } }
+
+@media screen and (max-width: 723px) {
+  ._3AbY2pXd {
+    grid-column: span 3; } }
+
+@media screen and (max-width: 540px) {
+  ._3AbY2pXd {
+    grid-column: span 2; } }
+
+/* See http://mrdanadams.com/2012/pixel-ems-css-conversion-sass-mixin/ */
+/* Convert PX units to EMs.
+Ex: margin-right: prem(16);
+*/
+/* Rounds EMs to the nearest .1 to be nicer. Useful for when browsers choke
+   on bizarre em values
+ */
+/* Used to convert PX to EMs for multiple properties or values or both.
+$base is an optional measurement that allows making measurements relative to the parent font size rather than the current. Also accepts a list of lists (instead a list of values) for properties that accept multiple lists of values. Only numbers of converted; everything else is passed through.
+
+Examples:
+
+@include scale(line-height, 30)
+@include scale(line-height, 30, 16)
+@include scale(width height, 125);
+@include scale(padding, 0 25, 16);
+@include scale(text-shadow, (#0d6e28 1 1) (#777 0 0 2), 16);
+@include scale(box-shadow, (inset 0 0 0 1 #2a9022) (inset 0 0 3 #459966), 16);
+*/
+/*
+ * NOTE: Don't specify CSS Custom Properties (Variables) here as they will be
+ * duplicated on import of this file. Please use variables-custom-properties.scss for new variables
+ */
+/**
+ * Official BitMEX Color Palette
+ * @see https://docs.google.com/document/d/14kCw1-SS705qNBGvbwh23RedY1lAPoO7VVFmrcOAdP8/edit
+*/
+
+/**
+* Use em or rem font-size in Bootstrap 3
+* Based on Less version here: https://gist.github.com/jasny/9731895
+* Values pulled from _variables.scss
+*/
+._3N9JQ96g {
+  display: block;
+  width: calc(100% - var(--spacing4));
+  max-width: 1600px;
+  height: calc(100% - var(--spacing4));
+  position: fixed;
+  z-index: 1050;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  border: 1px solid var(--grey70);
+  border-radius: 4px;
+  background-color: var(--grey98);
+  padding: var(--spacing4);
+  overflow: hidden; }
+
+._2gE7qiK- {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+          align-items: center;
+  margin-bottom: var(--spacing1); }
+
+._2Y4aNdZK {
+  visibility: hidden; }
+
+._2ztZ7iSf {
+  display: block;
+  overflow-y: scroll;
+  max-height: calc(100% - var(--spacing2)); }
+
+.FGZk5BSt {
+  position: fixed;
+  height: 100%;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  background-color: var(--black);
+  opacity: 0.75; }
+
+/* See http://mrdanadams.com/2012/pixel-ems-css-conversion-sass-mixin/ */
+/* Convert PX units to EMs.
+Ex: margin-right: prem(16);
+*/
+/* Rounds EMs to the nearest .1 to be nicer. Useful for when browsers choke
+   on bizarre em values
+ */
+/* Used to convert PX to EMs for multiple properties or values or both.
+$base is an optional measurement that allows making measurements relative to the parent font size rather than the current. Also accepts a list of lists (instead a list of values) for properties that accept multiple lists of values. Only numbers of converted; everything else is passed through.
+
+Examples:
+
+@include scale(line-height, 30)
+@include scale(line-height, 30, 16)
+@include scale(width height, 125);
+@include scale(padding, 0 25, 16);
+@include scale(text-shadow, (#0d6e28 1 1) (#777 0 0 2), 16);
+@include scale(box-shadow, (inset 0 0 0 1 #2a9022) (inset 0 0 3 #459966), 16);
+*/
+/*
+ * NOTE: Don't specify CSS Custom Properties (Variables) here as they will be
+ * duplicated on import of this file. Please use variables-custom-properties.scss for new variables
+ */
+/**
+ * Official BitMEX Color Palette
+ * @see https://docs.google.com/document/d/14kCw1-SS705qNBGvbwh23RedY1lAPoO7VVFmrcOAdP8/edit
+*/
+
+/**
+* Use em or rem font-size in Bootstrap 3
+* Based on Less version here: https://gist.github.com/jasny/9731895
+* Values pulled from _variables.scss
+*/
+.H-fFtkvl {
+  display: -webkit-box;
+  display: flex;
+  padding: var(--spacing2);
+  position: relative; }
+
+._334sVcpi {
+  align-self: center;
+  display: -webkit-box;
+  display: flex; }
+  ._334sVcpi > svg {
+    height: 1.84615rem; }
+
+._1nWHK7e0 {
+  -webkit-box-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+          flex-direction: row;
+  -webkit-box-pack: end;
+          justify-content: flex-end;
+  margin-left: auto; }
+  ._1nWHK7e0 a {
+    margin-right: var(--spacing2); }
+  ._1nWHK7e0 button {
+    height: 52px; }
+
+._3tn2frJ9 {
+  -webkit-box-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: flex;
+  padding: var(--spacing1); }
+
+._33lHJlgT {
+  padding-right: var(--spacing1); }
+
+@media screen and (max-width: 1400px) {
+  ._1nWHK7e0 button {
+    height: 42px; } }
+
+@media screen and (max-width: 768px) {
+  ._1nWHK7e0 > a:nth-child(2) {
+    display: none; } }
+
+@media screen and (max-width: 480px) {
+  ._1nWHK7e0 > a:nth-child(1) {
+    display: none; } }
+
+/* See http://mrdanadams.com/2012/pixel-ems-css-conversion-sass-mixin/ */
+/* Convert PX units to EMs.
+Ex: margin-right: prem(16);
+*/
+/* Rounds EMs to the nearest .1 to be nicer. Useful for when browsers choke
+   on bizarre em values
+ */
+/* Used to convert PX to EMs for multiple properties or values or both.
+$base is an optional measurement that allows making measurements relative to the parent font size rather than the current. Also accepts a list of lists (instead a list of values) for properties that accept multiple lists of values. Only numbers of converted; everything else is passed through.
+
+Examples:
+
+@include scale(line-height, 30)
+@include scale(line-height, 30, 16)
+@include scale(width height, 125);
+@include scale(padding, 0 25, 16);
+@include scale(text-shadow, (#0d6e28 1 1) (#777 0 0 2), 16);
+@include scale(box-shadow, (inset 0 0 0 1 #2a9022) (inset 0 0 3 #459966), 16);
+*/
+/*
+ * NOTE: Don't specify CSS Custom Properties (Variables) here as they will be
+ * duplicated on import of this file. Please use variables-custom-properties.scss for new variables
+ */
+/**
+ * Official BitMEX Color Palette
+ * @see https://docs.google.com/document/d/14kCw1-SS705qNBGvbwh23RedY1lAPoO7VVFmrcOAdP8/edit
+*/
+
+/**
+* Use em or rem font-size in Bootstrap 3
+* Based on Less version here: https://gist.github.com/jasny/9731895
+* Values pulled from _variables.scss
+*/
+._2koeaXMy {
+  margin-bottom: 1.53846rem; }
+
+/* See http://mrdanadams.com/2012/pixel-ems-css-conversion-sass-mixin/ */
+/* Convert PX units to EMs.
+Ex: margin-right: prem(16);
+*/
+/* Rounds EMs to the nearest .1 to be nicer. Useful for when browsers choke
+   on bizarre em values
+ */
+/* Used to convert PX to EMs for multiple properties or values or both.
+$base is an optional measurement that allows making measurements relative to the parent font size rather than the current. Also accepts a list of lists (instead a list of values) for properties that accept multiple lists of values. Only numbers of converted; everything else is passed through.
+
+Examples:
+
+@include scale(line-height, 30)
+@include scale(line-height, 30, 16)
+@include scale(width height, 125);
+@include scale(padding, 0 25, 16);
+@include scale(text-shadow, (#0d6e28 1 1) (#777 0 0 2), 16);
+@include scale(box-shadow, (inset 0 0 0 1 #2a9022) (inset 0 0 3 #459966), 16);
+*/
+/*
+ * NOTE: Don't specify CSS Custom Properties (Variables) here as they will be
+ * duplicated on import of this file. Please use variables-custom-properties.scss for new variables
+ */
+/**
+ * Official BitMEX Color Palette
+ * @see https://docs.google.com/document/d/14kCw1-SS705qNBGvbwh23RedY1lAPoO7VVFmrcOAdP8/edit
+*/
+
+/**
+* Use em or rem font-size in Bootstrap 3
+* Based on Less version here: https://gist.github.com/jasny/9731895
+* Values pulled from _variables.scss
+*/
+.G7SEA91B {
+  grid-column: 1 / -1;
+  background: var(--backgroundMain);
+  padding: 1.84615rem; }
+
+/*
+ *  Set up the Grid we need for the homepage
+ */
+._2dYKGsJn,
+._11z4oY7- {
+  min-height: 100vh; }
+
+._11z4oY7- {
+  grid-template-rows: auto auto 1fr auto; }
+
+._2dYKGsJn {
+  grid-template-rows: auto 1fr auto; }
+
+/* See http://mrdanadams.com/2012/pixel-ems-css-conversion-sass-mixin/ */
+/* Convert PX units to EMs.
+Ex: margin-right: prem(16);
+*/
+/* Rounds EMs to the nearest .1 to be nicer. Useful for when browsers choke
+   on bizarre em values
+ */
+/* Used to convert PX to EMs for multiple properties or values or both.
+$base is an optional measurement that allows making measurements relative to the parent font size rather than the current. Also accepts a list of lists (instead a list of values) for properties that accept multiple lists of values. Only numbers of converted; everything else is passed through.
+
+Examples:
+
+@include scale(line-height, 30)
+@include scale(line-height, 30, 16)
+@include scale(width height, 125);
+@include scale(padding, 0 25, 16);
+@include scale(text-shadow, (#0d6e28 1 1) (#777 0 0 2), 16);
+@include scale(box-shadow, (inset 0 0 0 1 #2a9022) (inset 0 0 3 #459966), 16);
+*/
+/*
+ * NOTE: Don't specify CSS Custom Properties (Variables) here as they will be
+ * duplicated on import of this file. Please use variables-custom-properties.scss for new variables
+ */
+/**
+ * Official BitMEX Color Palette
+ * @see https://docs.google.com/document/d/14kCw1-SS705qNBGvbwh23RedY1lAPoO7VVFmrcOAdP8/edit
+*/
+
+/**
+* Use em or rem font-size in Bootstrap 3
+* Based on Less version here: https://gist.github.com/jasny/9731895
+* Values pulled from _variables.scss
+*/
+/*
+ *  One current component for the PageLayout (PageSingleColumn)
+ */
+._2XR7ANKI {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+          align-items: center;
+  grid-column: 1/-1;
+  padding: 2.76923rem; }
+  ._2XR7ANKI > article {
+    min-width: 468px; }
+
+@media screen and (max-width: 480px) {
+  ._2XR7ANKI > article {
+    min-width: 0; } }
+
+/* See http://mrdanadams.com/2012/pixel-ems-css-conversion-sass-mixin/ */
+/* Convert PX units to EMs.
+Ex: margin-right: prem(16);
+*/
+/* Rounds EMs to the nearest .1 to be nicer. Useful for when browsers choke
+   on bizarre em values
+ */
+/* Used to convert PX to EMs for multiple properties or values or both.
+$base is an optional measurement that allows making measurements relative to the parent font size rather than the current. Also accepts a list of lists (instead a list of values) for properties that accept multiple lists of values. Only numbers of converted; everything else is passed through.
+
+Examples:
+
+@include scale(line-height, 30)
+@include scale(line-height, 30, 16)
+@include scale(width height, 125);
+@include scale(padding, 0 25, 16);
+@include scale(text-shadow, (#0d6e28 1 1) (#777 0 0 2), 16);
+@include scale(box-shadow, (inset 0 0 0 1 #2a9022) (inset 0 0 3 #459966), 16);
+*/
+/*
+ * NOTE: Don't specify CSS Custom Properties (Variables) here as they will be
+ * duplicated on import of this file. Please use variables-custom-properties.scss for new variables
+ */
+/**
+ * Official BitMEX Color Palette
+ * @see https://docs.google.com/document/d/14kCw1-SS705qNBGvbwh23RedY1lAPoO7VVFmrcOAdP8/edit
+*/
+
+/**
+* Use em or rem font-size in Bootstrap 3
+* Based on Less version here: https://gist.github.com/jasny/9731895
+* Values pulled from _variables.scss
+*/
+._8ijxxEXs {
+  background: var(--grey98);
+  border-bottom: solid 1px var(--borderMain); }
+
+._1jgvupDg {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+          flex-direction: row;
+  list-style-type: none;
+  padding: var(--spacing1) var(--spacing3);
+  margin: 0; }
+
+.N17N0KiM {
+  border-radius: 0.30769rem;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: center;
+          align-items: center;
+  margin-left: var(--spacing2);
+  padding: var(--spacing1) var(--spacing2); }
+  .N17N0KiM svg {
+    height: 1.23077rem;
+    fill: var(--grey50);
+    margin-right: var(--spacingHalf);
+    width: 1.23077rem; }
+  .N17N0KiM:first-child {
+    margin-left: 0; }
+
+._2wdRPgHJ {
+  background: var(--grey95); }
+  ._2wdRPgHJ svg {
+    fill: var(--blue60); }
+
+@media screen and (max-width: 768px) {
+  ._2wdRPgHJ {
+    margin-left: 0; }
+  ._2G2Pj80E {
+    display: none; } }
