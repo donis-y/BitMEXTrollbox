@@ -1,2 +1,0 @@
-# BitMEXTrollbox
-BitMEX Trollbox
